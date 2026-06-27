@@ -1,0 +1,1550 @@
+[
+  {
+    "id": "MI-001",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "NHÀ SÁCH HOÀNG YẾN",
+    "address": "Thị trấn Chi Đông, Mê Linh, Hà",
+    "investment": "500.000.000",
+    "model": "Mô hình nhà sách + đồ",
+    "target_customers": "chủ yếu học sinh",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/368009941_116399041550470_7358962603136075065_n-20240911094139-uckwk.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/368013449_116399251550449_7316419921520980378_n-20240912024302-uw4ii.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/398048221_166811429842564_2524050790988846536_n-20240912024302-fo5m_.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/368307303_117471058109935_4951821367340428815_n-20240912024526-vugw1.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/369188505_118596931330681_4126219735819422864_n-20240912024301-gfuh0.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/387777755_150487544808286_6330168755371456886_n-20240912024526-4d0m1.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/nha-sach-hoang-yen-20240911093717-lj-st.png"
+  },
+  {
+    "id": "MI-002",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "HÒA CA CAFE",
+    "address": "31 ngõ 279 P. Giảng Võ, Chợ",
+    "investment": "400.000.000",
+    "model": "Cafe, trà sữa",
+    "target_customers": "Đa dạng KH, chủ yếu là",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/318231100_133682606192353_4146830508508387794_n-20240912031525-ltjjf.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/313911568_120802687480345_3789417457134277097_n-20240912031347-qkas6.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/322123141_456960449821423_1086946547193929275_n-20240912031347-nqttm.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/318712696_133684789525468_6431311498131230745_n-20240912031525-blx9z.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/336166769_1898103270554665_4149167440670333472_n-20240912031347-p3eac.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/316284180_129827306577883_6730183812899182524_n-20240912031525-himch.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/hoa-ca-cafe-20240911092203-4iocs.png"
+  },
+  {
+    "id": "MI-003",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "LEE CHLOE COFFEE",
+    "address": "D34 Khu D Khu Đô thị Geleximco",
+    "investment": "Khoảng 2 tỷ",
+    "model": "Cà Phê + Trà hoa quả",
+    "target_customers": "Cư dân khu đô thị",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/433415834_374178435518430_7721457381880142442_n-20240912065910-1j_qx.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457692308_480813968188209_7734833674944928028_n-20240912065911-cu7z2.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/438077793_399957652940508_2464397055802163879_n-20240912065910-bw2vo.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457506666_479512454985027_4804144408971216627_n-20240912065911-kdmzu.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/407682998_313996604869947_1143607485029053139_n-20240912065911-wvmnw.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/332497445_886258582694534_1362320921517684677_n-20240912065911-qgpy7.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/lee-chloe-coffee-20240912043900-df-vd.png"
+  },
+  {
+    "id": "MI-004",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "RYAT -",
+    "address": "TRÀ SỮA ĐỘC BẢN",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/448649161_122120462240304899_345746354746936753_n-20240912034232-b7v6c.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/452734154_122132215322304899_212994554379659403_n-20240912034232-7ce4z.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/452601707_122132215352304899_30356342976939423_n-20240912034232-arqtq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/453540925_122134427438304899_4892152760018006421_n-20240912035123-ckly-.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/455836883_122140218368304899_7903116287547290572_n-20240912034447-uprbl.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/455862369_122139700916304899_5657060310000480744_n-20240912034447-djjmc.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/6-20250315021756-gdk7u.jpg"
+  },
+  {
+    "id": "MI-005",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "LOLA TEA",
+    "address": "Cống nỏ, Thường Tín",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20240924_110115120_ios-20250315032613-revvq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20240924_110359990_ios-20250315032614-j_aag.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20240924_133451664_ios-20250315032618-uk7ju.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20240924_110636812_ios-20250315032616-vmcf6.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20240924_131741977_ios-20250315032942-xhbl0.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_7345-20250315032942-ajl7y.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/4-20250315021756-ziyep.jpg"
+  },
+  {
+    "id": "MI-006",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "NHÀ MỆ SEN",
+    "address": "HA09-SP 03.01 Vinhome Ocean",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20240821_091023456_ios-20250315022321-o39mk.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/z5903592905163_9826f8d0e21d4bac3a757c4bf7393e7b-20250315022325-ikxdi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_7310-20250315022528-wbz3k.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_7294-20250315022757-bynbd.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_7308-20250315022317-mfw3v.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_7316-20250315025311-y1jkz.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/7-20250315021756-dkzpp.jpg"
+  },
+  {
+    "id": "MI-007",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "DOLISA TEA - ICE",
+    "address": "CREAM -FOOD",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/445387096_122116964804295501_3172765615396095708_n-20240912041807-pf-xq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440962511_122102899940295501_2358512216057566137_n-20240912041807-psswz.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/441418126_122111520686295501_4364882832996806319_n-20240912041807-qiknu.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/445034352_122114355788295501_7861761635100236777_n-20240912041807-cahpb.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440935494_122102899856295501_7038025268520737029_n-20240912041808-cjnnb.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/441256554_122113069298295501_2335558823252734784_n-20240912041807-upsgs.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/dolisa-tea-ice-cream-food-20240911092129-plfdm.png"
+  },
+  {
+    "id": "MI-008",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "SI CONCEPT COFFEE",
+    "address": "Grand World, Vinhome Ocean",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440934150_122097615494315245_5081505182212459342_n-20240912042340-f_-uz.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440856178_122097615614315245_641890493678878515_n-20240912042339-xmxru.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440928640_122097615686315245_7807235795653263154_n-20240912042339-alrnd.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/451637287_122126754224315245_2981872689726699832_n-20240912042339-o56a3.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440958962_122096976512315245_6745332216689260440_n-20240912042339-mq-3f.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/qrwf-20240912042459-ytpvm.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/si-concept-coffee-20240911092151-dczj2.png"
+  },
+  {
+    "id": "MI-009",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "DAGI SHARK",
+    "address": "Đội 7, thôn Bầu Kim Chung,",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3645-1-20250315024258-stpnq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3513-1-20250315024253-nked1.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3636-1-20250315024254-gpq9h.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3514-1-20250315024255-je3pc.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/z6137891570580_73674b8617e5293cd7cc0fd43cc0c19c-20250315023229-oinzn.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3528-1-20250315024257-bmxmw.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/8-20250315021756-v835j.jpg"
+  },
+  {
+    "id": "MI-010",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "SUNSHIN COFFEE",
+    "address": "XQ2F+524, BT13-6, KĐT Phú",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241130_134135185_ios-1-20250315025048-wocms.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241126_091047732_ios-1-20250315025047-y3s4n.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241124_104557721_ios-20250315024717-dvh_u.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241130_093024154_ios-2-20250315025049-u9nm7.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241202_015728390_ios-20250315024717-bbwma.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241202_015735265_ios-20250315024718-atjvz.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/9-20250315021756-dcgjz.jpg"
+  },
+  {
+    "id": "MI-011",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "TIMELESS COFFEE",
+    "address": "Tây Hồ, Hà Nội",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/snaptikvn_sdgsb-20251220041543-ah49-.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20250726_171650-20251220041019-psudb.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/snaptikvn_demcl-20251220041848-5bfib.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/snaptikvn_qfxku-20251220041821-9ic-y.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20250527_143737_img_1557-1-20251220041437-4p0sl.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20250527_143910_img_1559-1-20251220041301-m_pa3.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/mau-1-20251220042447-vscco.jpg"
+  },
+  {
+    "id": "MI-012",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "A+ COFFEE",
+    "address": "Tòa nhà Anh Tú Building, Khu",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/375470092_136819882835476_6560028676907013547_n-20240913035930-16lq2.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/375459916_136819872835477_1825137509499841750_n-20240913035930-sniab.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/441575249_288056007711862_877371664505953672_n-20240913035931-k12yg.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/453257680_333303993187063_7331941055118536722_n-20240913035932-0ptyh.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/381456942_146745145176283_6140331970848378120_n-20240913035930-ql1-2.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/446618517_296221726895290_3069811824145443890_n-20240913035931-fsekw.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/a-coffee-20240911092203-pg3ur.png"
+  },
+  {
+    "id": "MI-013",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "LAVITA RESORT",
+    "address": "Thôn Minh Tân, Sóc Sơn, Hà Nội,",
+    "investment": "800,000,000",
+    "model": "Resort kết hợp cafe",
+    "target_customers": "Gia đình",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/456605970_1094265168899126_4995427532947872546_n-20240912042936-osfpd.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457449696_1097419405250369_2354933432055403314_n-20240912042959--c00_.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/456872841_1094265375565772_9013744249120645048_n-20240914021745-zzafa.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/442489782_1027236092268701_9016645776058692983_n-20240914021744-kuaek.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/lavita-resort-20240911092151-bs0pr.png"
+  },
+  {
+    "id": "MI-014",
+    "region": "Miền Bắc",
+    "province": "HÀ NỘI",
+    "name": "RIKO CHA",
+    "address": "Tam Xá, Đông Anh",
+    "investment": "1Tỷ2",
+    "model": "Trà & Mỳ Cay",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/z6813293409310_e340d815fbc726be785b515240a25e6a-20251220074855-780rq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20250717_142331_img_2422-20251220074352-m6whw.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/z6779771938859_9342db87b7fe2c86d734c16b70dc7c29-20251220074923-oo_is.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/z6779771935001_1b205c64b15f30e52338688825d264dd-20251220074923-ce5sb.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/z6779771920894_135dea62bd69e7e02ad2061d3edcfb0a-20251220074922-1awtf.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/mau-2-20251220075505-1bofz.jpg"
+  },
+  {
+    "id": "MI-015",
+    "region": "Miền Bắc",
+    "province": "NINH BÌNH",
+    "name": "MOMO COFFEE",
+    "address": "Số 76 đường Lê Thánh Tông,",
+    "investment": "1.200.000.000",
+    "model": "Đồ uống và đồ ăn",
+    "target_customers": "Đa dạng KH, chủ yếu",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/449279569_434088592934599_6916251632291068568_n-20240912024635-xy-bd.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/348265017_133335216417182_3664655248488920747_n-1-20240912035959-fohp6.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/339685146_519922647015707_3654051842235776737_n-20240912025243-aw8bi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/338000051_167376386191928_4659602926811124580_n-20240912025243-ernmu.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/337895562_612691066940717_6373872550611996306_n-20240912025243-py5su.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/458745496_480385704971554_7646254096021273171_n-20240912024917-rd8bk.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/momo-coffee-20240911094012-q-tw4.png"
+  },
+  {
+    "id": "MI-016",
+    "region": "Miền Bắc",
+    "province": "NINH BÌNH",
+    "name": "KAFE MANEKI",
+    "address": "64 Đinh Tiên Hoàng phường",
+    "investment": "1,000,000,000",
+    "model": "Cafe và trà sữa",
+    "target_customers": "Tổng hợp",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/455908921_2151343275248455_3798970782453635379_n-20240913043403-pu9dc.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/420536292_122112151124176177_2171627260158146311_n-20240913043405-rvijl.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/420128886_122110861772176177_8583017890146402796_n-20240913043405-l-jyv.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/420540559_122112152306176177_3537503920076173486_n-20240913043404-zd86c.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/451646560_122158933208176177_5128063214862313506_n-20240913043404-t70ug.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/447306195_2099320680450715_2439137884450742963_n-20240913043403-um-ax.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/kafe-maneki-20240911092129-gd8pb.png"
+  },
+  {
+    "id": "MI-017",
+    "region": "Miền Bắc",
+    "province": "NINH BÌNH",
+    "name": "BEE TEA",
+    "address": "Xóm 9 - Yên Mỹ - Yên Mô",
+    "investment": "500,000,000",
+    "model": "Trà sữa + chè",
+    "target_customers": "Học sinh cấp 3",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/295312842_118591954246605_3440691271522505736_n-20240913043557-ym1rs.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/295930324_118591870913280_6457149068495891470_n-20240913043557-oi8tv.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/295302820_118591817579952_2607605956549802320_n-20240913043557-4spuo.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/294715043_118591894246611_2667935896886125737_n-20240913043557-j7dtt.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/294673874_118591777579956_8542168003388976174_n-20240913043557-w7e9h.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/bee-tea-20240911092129-0cv78.png"
+  },
+  {
+    "id": "MI-018",
+    "region": "Miền Bắc",
+    "province": "QUẢNG NINH",
+    "name": "NILA“S COFFEE",
+    "address": "CREAM HẠ LONG",
+    "investment": "1,000,000,000",
+    "model": "Cà phê, kem, trà",
+    "target_customers": "giới trẻ",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454963630_122213578070010770_4132205486553816779_n-20240912035516-xz706.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/368265475_122108452928010770_5934735955482106070_n-20240912035516-ziqay.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/368268452_122108452820010770_4451665870077764984_n-20240912035516-8wqyi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/453319078_122210233658010770_1120878632127698612_n-20240912035516-kzbhd.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/420173546_122163821762010770_7707563698258137406_n-20240912035705-jd9sv.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/367039301_122099205110010770_3809772570750230219_n-20240912035516-j86lt.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/nilas-coffee-cream-ha-long-20240911092151-bnsax.png"
+  },
+  {
+    "id": "MI-019",
+    "region": "Miền Bắc",
+    "province": "QUẢNG NINH",
+    "name": "RUBY SIX COFFEE",
+    "address": "Số 68 Đào Duy Anh, Ka Long,",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/356095804_121299997666650_5135254017778991875_n-20240911093745-zuxj8.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/355488492_119052684558048_2335022933223334205_n-20240912023558-tseuf.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/358038229_127403900389593_7754277141084240294_n-20240912022603-9tezy.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/418452262_243731402090175_119473157638646926_n-20240912022603-9n2fi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/356053855_121300010999982_1292345566735771053_n-20240912022603-zoucp.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/360095237_134029033060413_391247687729209985_n-20240912023754-uktff.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/ruby-six-coffee-20240911092214-bmqfj.png"
+  },
+  {
+    "id": "MI-020",
+    "region": "Miền Bắc",
+    "province": "PHÚ THỌ",
+    "name": "SHANLA",
+    "address": "Trung Tâm Thương Mại Go Việt",
+    "investment": "800,000,000",
+    "model": "Trà sữa olong đậm vị",
+    "target_customers": "Giới trẻ nhu cầu",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/378616361_122130655250004049_5989989866576864679_n-20240913042834--v13v.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/400649584_122153351090004049_5168697218119041824_n-20240913042834-2rnqk.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/425623618_122174834156004049_3351964591810522494_n-20240913042833-wbfhu.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/401774044_122153350838004049_4505729854800745548_n-20240913042834-xcyx_.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440005725_122194543868004049_8849754604696838656_n-20240913042833-hxnnr.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/429894668_122181596138004049_3699736202200256990_n-20240913042834-xtqg2.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/shalan-20240914021002-acbye.png"
+  },
+  {
+    "id": "MI-021",
+    "region": "Miền Bắc",
+    "province": "PHÚ THỌ",
+    "name": "MAZINO COFFEE&TEA",
+    "address": "HOUSE VIỆT TRÌ",
+    "investment": "",
+    "model": "Cà phê trà sữa đồ ăn",
+    "target_customers": "Học sinh sinh viên,",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/61305070_2361352904141273_5868779059990757376_n-20240913040816-l6ige.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/60233595_2353950281548202_4094030790109691904_n-20240913040815-pvot3.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/60971799_2356073371335893_4008170305053786112_n-20240913040815-b5a6i.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/57308606_2335497890060108_8455006029732642816_n-20240913040813-zltcc.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/59698688_2344606872482543_7977730078182211584_n-20240913040814-9ibz4.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/94743270_2643047285971832_8071077103551905792_n-20240913040816-zovar.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/mazino-coffeetea-house-viet-tri-20240913030736-y3bsj.png"
+  },
+  {
+    "id": "MI-022",
+    "region": "Miền Bắc",
+    "province": "HÒA BÌNH",
+    "name": "LÁ CAFE",
+    "address": "VƯỜN CỦA NI",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/450281845_801869435404863_178685927675440257_n-20240912040918-w62d6.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454325825_819421606982979_6271180800321781459_n-20240912040918-ctudi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/456624339_829394482652358_7780253799189223051_n-20240912040918-9apmq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457480486_832601408998332_5899483832840355573_n-20240912040918-4rjkp.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/453879306_816189433972863_890001628222055492_n-20240912041047-xwjuj.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/455033230_824916836433456_4635854155250349868_n-20240912040918-gymzh.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/5-20250315021756-xg65y.jpg"
+  },
+  {
+    "id": "MI-023",
+    "region": "Miền Bắc",
+    "province": "HÒA BÌNH",
+    "name": "BƠ COFFEE & TEA",
+    "address": "Tiểu khu 4 thị trấn Mai Châu",
+    "investment": "300,000,000",
+    "model": "trà sữa và trà hoa quả",
+    "target_customers": "Học sinh sinh viên,",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/432729642_714749244155944_6951558594585395996_n-20240913042102-lzeea.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/432787451_714749577489244_751969107912925303_n-20240913042102-qid59.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454236284_799233689040832_6324014878716618417_n-20240913042102-yh9of.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454944292_800625968901604_4336110335116078911_n-20240913042101-o7z4l.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/451406393_787120680252133_3624020226246572987_n-20240913042101-frmoa.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457269879_811537841143750_1983494431320514533_n-20240913042203-6dgvt.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/kao-nai-the-coffee-1-20240913032229-o5pvz.png"
+  },
+  {
+    "id": "MI-024",
+    "region": "Miền Bắc",
+    "province": "HẢI DƯƠNG",
+    "name": "THE CAFEF",
+    "address": "Số 43 Bùi Viện, KĐT Ecorivers,",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454860304_122096973236463405_4744587511613753366_n-20240912070350-4u2fk.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457066878_122110110620463405_4866630903650010868_n-20240912070351-b2yqi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457472927_122110110584463405_1525265619930441036_n-20240912070351-awhc1.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457107715_122110110782463405_2435520879907899973_n-20240912070350-uo_-x.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457287227_122110110734463405_3595556971995854818_n-20240912070350-zear3.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/455108180_122099770010463405_1491138651603183746_n-20240912070350-vwrbq.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/the-cafef-20240911092152-bkn4z.png"
+  },
+  {
+    "id": "MI-025",
+    "region": "Miền Bắc",
+    "province": "BẮC NINH",
+    "name": "CÀ PHÊ CÀ PHÁO",
+    "address": "Xóm Đình Mão Điền, Thuận",
+    "investment": "600,000,000",
+    "model": "Cà Phê + Trà hoa quả",
+    "target_customers": "Giới trẻ và văn phòng",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/404541050_172420735951315_8589776471566744225_n-20240912032126-m4ad4.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/449859771_307064192486968_8447269229085575551_n-20240912032126-qmnxd.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/377495984_126827893843933_2110015359379886034_n-20240912032126-8xzj_.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/386556704_143040342222688_490481648686014490_n-20240912032126-femsi.png",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/374885840_124331177426938_1103166978249919735_n-20240912032126-ccx7b.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/407875503_178869118639810_419345173385518538_n-20240912032329-ki_4m.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/ca-phe-ca-phao-20240911092203-nnpd4.png"
+  },
+  {
+    "id": "MI-026",
+    "region": "Miền Bắc",
+    "province": "THANH HÓA",
+    "name": "CƯỜNG LAN COFFEE",
+    "address": "120 Lê Thái Tông - Khu 5 - TT",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454885892_122155548056110844_1238151332255329474_n-20240912043230-6itjy.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/433108837_122132609084110844_2237009721705877838_n-20240912043230-0gzpl.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/431671173_122130148202110844_3389744113838107926_n-20240912043230-w0s_c.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/454075603_122154568976110844_5638979858670110850_n-20240912043230-e9pdj.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/416905219_122119587140110844_3808152760624954853_n-20240912043229-bmjtm.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/428641212_122127735572110844_8997766921591904511_n-20240912043230-oy3h7.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/cuong-lan-coffee-20240911092129-7okin.png"
+  },
+  {
+    "id": "MI-027",
+    "region": "Miền Bắc",
+    "province": "THÁI NGUYÊN",
+    "name": "LA LUCE",
+    "address": "Số 670 đường Lương Ngọc",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/312352736_115277421363526_3704486974819605734_n-20240913044347-xh3a_.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/312042561_115277404696861_2077103886757179734_n-20240913044347-s4sp6.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/322549180_707873770867559_8676461307713260853_n-20240913044347-s96gw.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/315976120_127736096787536_8435569996884497016_n-20240913044509-s4wfs.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/315486424_127736013454211_509792028271232329_n-20240913044347-u4vln.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/333014328_1247822512521743_3763835641874065138_n-20240913044347-rfrsc.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/la-luce-20240911092203-ja86r.png"
+  },
+  {
+    "id": "MI-028",
+    "region": "Miền Bắc",
+    "province": "HẢI PHÒNG",
+    "name": "B.A.O COFFEE & TEA",
+    "address": "An Dương, Hải Phòng",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3793-20250315035005-vxafz.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3776-20250315035004-_aji9.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3827-20250315035006-omt_t.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3826-20250315035005-bax7o.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3832-20250315035007-vxhr1.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/img_3764-20250315035004-irlcp.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/3-20250315021756-mppt5.jpg"
+  },
+  {
+    "id": "MI-029",
+    "region": "Miền Bắc",
+    "province": "BẮC GIANG",
+    "name": "SHAN",
+    "address": "TT VIỆT YÊN, BẮC GIANG",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241227_101155326_ios-1-20250315035934-rj0fv.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241228_124659459_ios-20250315035702-zcowf.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241226_095510689_ios-20250315035702-cmqff.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/20241227_071311881_ios-20250315035701-uwds0.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/1-20250315021756-v5h0w.jpg"
+  },
+  {
+    "id": "MI-030",
+    "region": "Miền Bắc",
+    "province": "NGHỆ AN",
+    "name": "NOBITA",
+    "address": "Khu đô thị Hải Vân, xã Diễn",
+    "investment": "400.000.000",
+    "model": "Cafe, trà sữa",
+    "target_customers": "Đa dạng KH, chủ yếu là",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/301267030_129518769820590_7038192518907624269_n-20240913043845-mkjhm.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/301572476_129518636487270_8198434372075896845_n-20240913043845-qf1e8.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/301681115_129518736487260_5631920545715752294_n-20240913043845-v7tri.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/302291570_129518616487272_6028726464180268651_n-20240913043845-dzrjf.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/302215060_129518679820599_6310976142749786914_n-20240913043845-n7jsz.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/300809763_129518703153930_896423471473976394_n-20240913043845-tji1n.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/nobita-20240913033346-zq3km.png"
+  },
+  {
+    "id": "MI-031",
+    "region": "Miền Trung",
+    "province": "Đà Nẵng",
+    "name": "CANDLES CAFE",
+    "address": "Số 19 Đường Thanh Lương 23,",
+    "investment": "Setup 38 triệu; máy",
+    "model": "Cà Phê- TRà Sữa- Bánh",
+    "target_customers": "giới trẻ, khách gia đình;",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/343493581_958661951934072_7638210877947083473_n-20240912041514-_wh2a.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/362287570_183503791405306_2526878906845100707_n-20240912041513-iwi3y.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/366502160_187618060993879_4193178055461985307_n-20240912041513-ybafu.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/432861216_331904303231920_8093903225001563435_n-20240912041512-6ty3z.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/366562641_187618007660551_5119041510882656648_n-20240912041513-azvok.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/366805351_187606107661741_7034074305209053715_n-20240912041513-qjpar.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/candles-cafe-20240912034942-sompe.png"
+  },
+  {
+    "id": "MI-032",
+    "region": "Miền Trung",
+    "province": "Hội An",
+    "name": "HẠT A PHỐ HỘI",
+    "address": "21 Nguyễn Thị Minh Khai,",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457803938_122108956886489295_6183758802286991243_n-20240912041648-xz3r-.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/456812629_122102772524489295_6314625258595310903_n-20240912041647-dvou9.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/458203420_122109942620489295_2930809808432390978_n-20240912041648-bipg8.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457279094_122105112932489295_5794810174424351030_n-20240912041646-_nae8.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457619702_122108956928489295_6559204968207402188_n-20240912041646-qvc-f.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457889001_122108957024489295_4616427608870881955_n-20240912041647-abzfd.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/lela-kafe-1-20240914021731-tgdpq.png"
+  },
+  {
+    "id": "MI-033",
+    "region": "Miền Trung",
+    "province": "Đắk Lắk",
+    "name": "YUMMI COFFEE",
+    "address": "Đường Lê Vụ, P Tân Lập, Tp",
+    "investment": "Gói Setup 38 triệu",
+    "model": "Cà Phê- TRà Sữa",
+    "target_customers": "Khách vãng lai , du lịch,",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/428605711_122120811248195755_6122873128220517179_n-20240912040604-onf9r.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/458105334_122177402972195755_8126442151581349025_n-20240912040603-slbhm.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/428606269_122120811770195755_3943592587053345028_n-20240912040602-ppydc.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/439477358_122143275644195755_8182450987545004283_n-20240912040602-cmyjn.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/428619103_122121300554195755_4314330536089878206_n-20240912040602-9egja.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/445356913_122151907670195755_2220804230604117756_n-20240912040602-l3tf3.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/yummi-coffee-20240912034942-huim3.png"
+  },
+  {
+    "id": "MI-034",
+    "region": "Miền Trung",
+    "province": "Lâm Đồng",
+    "name": "KMI HOMESTAY",
+    "address": "TEA COFFEE",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/450381327_122179725980073115_9138824102939994000_n-20240912042609-d5aqq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/449862673_122178281318073115_5820384272932506405_n-20240912042608-hqhu8.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/449716499_122178281276073115_4251162030448819278_n-20240912042608-oy5vn.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/449742899_122178441116073115_1863979499742603836_n-20240912042607-obdj8.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/456402706_122189548394073115_693227102984634122_n-20240912042609-kc7c2.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/456785285_122189548412073115_1332085801716467695_n-20240912042713-g2u1y.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/kmi-homestay-tea-coffee-20240912034942-t2vi_.png"
+  },
+  {
+    "id": "MI-035",
+    "region": "Miền Trung",
+    "province": "Lâm Đồng",
+    "name": "ĐIỂM HẸN SÀI GÒN",
+    "address": "19 Hùng Vương, Huyện Di Linh,",
+    "investment": "2t",
+    "model": "Quán cà phê kết hợp",
+    "target_customers": "Khách du lịch, địa",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/422874495_122114168594184405_5214468771296558773_n-20240912045400-loc_p.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/434494303_122138456588184405_1996245863563056254_n-20240912045359-artxg.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/448701400_122155018154184405_5760384482333812790_n-20240912045359-ye2gg.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457255980_122171252930184405_2336559259658423057_n-20240912045400-7zp9o.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/434026109_122133981074184405_7265684432074020088_n-20240912045542-ie6tl.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457285380_122171252402184405_495334219755147454_n-20240912045541-b-81z.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/diem-hen-sai-gon-20240912034942-mwmrj.png"
+  },
+  {
+    "id": "MI-036",
+    "region": "Miền Trung",
+    "province": "Lâm Đồng",
+    "name": "KIM GIÁ COFFEE &",
+    "address": "MINI MART",
+    "investment": "",
+    "model": "Cà Phê mang đi tích",
+    "target_customers": "Khách vãng lai , du lịch",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/438039618_854102623400681_2917787422615467484_n-20240912064538-45md4.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/437930882_854102626734014_6944161346844794820_n-20240912064538-u9h3a.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/438224348_854102690067341_754765144562579049_n-20240912064538-f32qy.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/441021074_861019186042358_8989469097414670830_n-20240912064538-oob4l.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/440941153_860472856096991_5948220541353035689_n-20240912064537-bz6xa.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/435091364_849913990486211_8159564108815863210_n-20240912064537-zuhsf.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/kim-gia-coffee-mini-mart-20240912034942-u5yvf.png"
+  },
+  {
+    "id": "MI-037",
+    "region": "Miền Trung",
+    "province": "Lâm Đồng",
+    "name": "DONG THANH",
+    "address": "HOMESTAY",
+    "investment": "Sư",
+    "model": "cafe + điểm tâm +",
+    "target_customers": "Khách Du Lịch",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/297152400_434123381967304_2688653116797391155_n-20240912065222-743fi.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/297226339_434123108633998_6385567799162923416_n-20240912065233-hpcas.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/297131010_434123761967266_3909216026228078849_n-20240912065233-sr1go.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/296824485_434124018633907_369358614081438383_n-20240912065233-sqpgr.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/199c958b-dd9d-4325-8f7c-e18b3f9bf22b-20240912065400-zl1-r.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/913a519e-08f4-41be-898a-971d204a3a95-20240912065400-7lpk9.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/dong-thanh-homestay-20240912034942-gbxgy.png"
+  },
+  {
+    "id": "MI-038",
+    "region": "Miền Trung",
+    "province": "Ninh Thuận",
+    "name": "LELA KAFE",
+    "address": "Đường Nguyễn Tri Phương,",
+    "investment": "Tổng xây dựng + máy",
+    "model": "Cà Phê- TRà Sữa- Ăn Vặt-",
+    "target_customers": "Khách tỉnh, công nhân,",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/441521214_122123556938259969_532096525112601175_n-20240912070135-ea9dm.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/452954012_122140989302259969_6593971187959391386_n-20240912070133-gp9ka.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457527678_122149191500259969_6100760745557650464_n-20240912070134-j2dgt.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457497579_122149191836259969_8338478292754250618_n-20240912070134-dqx1v.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/458753877_122150966300259969_3651720793778168023_n-20240912070134-1bvlq.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/457401817_122149191254259969_3652111213107075631_n-20240912070134-h3bxj.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/lela-kafe-20240912034942-liv7s.png"
+  },
+  {
+    "id": "MI-039",
+    "region": "Miền Trung",
+    "province": "Ninh Thuận",
+    "name": "NGUYÊN CHẤT",
+    "address": "COFFEE TEA 118",
+    "investment": "móc nguyên liệu 200",
+    "model": "Cà Phê- TRà Sữa- Ăn",
+    "target_customers": "giới trẻ, khách gia đình;",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/342639659_227691593243703_2541186566452541421_n-20240912070348-a2rez.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/133736671_100951875275655_8949176325569554723_n-20240912070351-th8z5.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/133701356_100951925275650_1074647103790903670_n-20240912070350-lpkau.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/133759419_100946801942829_985714660208004274_n-20240912070350-nglae.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/266678912_299109212126586_54502116906158230_n-20240912070350-bodf6.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/278842758_379074630796710_847140196534538884_n-20240912070349-mmwjc.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/nguyen-chat-coffee-tea-118-20240912034942-uqthz.png"
+  },
+  {
+    "id": "MI-040",
+    "region": "Miền Trung",
+    "province": "QUẢNG NGÃI",
+    "name": "LACÀFE",
+    "address": "C5-03 đường số 6, Ngọc Bảo",
+    "investment": "2 tỷ - Quầy 250tr",
+    "model": "Cà phê hiện đại",
+    "target_customers": "Khách giới trẻ, gia",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226226152157_19f6c8f8caf1c05af7d16e77afa2346e-20250315032655-vbcuk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/483732022_122116665320765516_2679751673271074234_n-20250315032620-jtyhl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/483539294_122116665386765516_7066111145552427240_n-20250315032619-kzoib.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/482118515_122114672372765516_3660828617945157888_n-20250315032619-lsx3w.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/480918060_122109038120765516_6337553653870854246_n-20250315032618-ah2-q.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/477584414_122101821524765516_5326879851329667548_n-20250315032618-19of0.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/476666056_122097472328765516_3502022308763574284_n-20250315032618-huddt.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/476288311_122096134022765516_168216005255989170_n-20250315032618-gttzr.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/lacafe-20250315022245-bcktg.png"
+  },
+  {
+    "id": "MI-041",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "BIG83 PICKLEBALL",
+    "address": "& COFFEE",
+    "investment": "Quầy bar 100tr",
+    "model": "Pickleball + Cà phê",
+    "target_customers": "Khách thể thao",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6171866869633_4b4b4c94bc44d2b2253b2eb419adc328-20250315023048-0ehwx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6171866865910_2ade90cdc43b62b2d2fa1561ee8fae64-20250315023047-zqvgl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6171904693950_73618ec71578e45f5b9583569e8500a1-20250315023049-6we_q.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6172802082942_54abee7f4002a2e2d031b25be98ea646-20250315023050-azg5-.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6171866864224_591a09479c69247c697a829744b6fa0d-20250315023047-pyvqx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6174839415310_41181b76898114030a45a451d40b9cd2-20250315023050-a5whf.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/333-20250315023408-f9vlw.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/big83-20250315022245-f78pz.png"
+  },
+  {
+    "id": "MI-042",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "ALP COFFEE &",
+    "address": "PICKLEBALL",
+    "investment": "Quầy bar 100tr",
+    "model": "Pickleball + Cà phê",
+    "target_customers": "Khách thể thao, giới",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/474493719_122133414308549522_8544658611090797620_n-20250315025858-pf5kg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/474648009_122133413516549522_9183966541445285768_n-20250315025859-bsqwf.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/472792939_122132144858549522_2031518167687477306_n-20250315025857-ga1h3.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/474606762_122133416570549522_246587832598268250_n-20250315025858-pc9b0.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/480238416_122140051958549522_3005385952554073729_n-20250315025900-wwdqr.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/480673242_122141116022549522_7153443596071258594_n-20250315025900-bdtww.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/480750830_122139891566549522_8242590343563007216_n-20250315025900-rerkq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/481259234_122141116058549522_3280301935410888385_n-20250315025901-bzgtn.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/alp-coffee-20250315022245-fxhtk.png"
+  },
+  {
+    "id": "MI-043",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "ÚT LẬP COFFEE",
+    "address": "193 Tân Kỳ Tân Quý, P Tân Sơn",
+    "investment": "Gói Máy + Nguyên",
+    "model": "Cà Phê- TRà Sữa- Ăn",
+    "target_customers": "Khách vãng lai , văn",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/448473091_122129221688279903_964222138802005955_n-20240912041322-mixl4.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450227534_122130261710279903_1737831581940339813_n-20240912041321-4dj5d.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/457260256_122139551522279903_5553639014761853556_n-20240912041322--ecrg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/449856256_122129071958279903_349264335260362157_n-20240912041320-mtkie.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450689439_122130627548279903_5074018429808175515_n-20240912041320-ud3lp.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452132041_122132478230279903_6230233364102365071_n-20240912041320-pgwrp.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/ut-lap-coffee-20240912040208-fat8y.png"
+  },
+  {
+    "id": "MI-044",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "DING COFFEE",
+    "address": "66 Trần Nhân Tông",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226172388256_d408caad0860e8fda584b8540d469418-20250315031030-pwl5f.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226172289945_3695f4a2f724372ed3be75ddfef00128-20250315031029-j3qio.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226172179497_5de6d4176fbd91f517d3252c4b470f2f-20250315031028-nue0k.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226172077243_7b84d8a6cdf372c7162776c27228c3d0-20250315031028-gvngo.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226171992609_e1044d53072a414a2302ddc53eae277a-20250315031027-v3jaz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6226171980671_028b25c3762df76e03fb7d50eb35ac7d-20250315031026-4pocy.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/ding-coffee-20250315022245-grp0c.png"
+  },
+  {
+    "id": "MI-045",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "TASTE ASIA",
+    "address": "Bangkok Thailand",
+    "investment": "",
+    "model": "Cà phê + Bánh mì Việt",
+    "target_customers": "Khách vãng lai, khách",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190124198470_28bb238644c55fb5c5608313bc4f231b-20250315031629-vjs3x.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190124115017_53298272be0308fac0dba8cadcb254b2-20250315031629-tgybk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190123960523_5aa30df3a2e131987a8013c833005e97-20250315031629-ellat.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190123919940_ba92044eb1b0c3fc6ae81fafd4ed33d5-20250315031629-kfxuk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190124084268_d901e91635d38786bd8a79bdd69d2c19-20250315031629-z52j5.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190123782147_abe62e1b6101f4e28c13833a9659c512-20250315031629-hfbxq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6190122833401_65624627e8914ff4c25c94fc97efed95-20250315031629-tapzu.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/taste-asia-20250315022245--lraj.png"
+  },
+  {
+    "id": "MI-046",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "VOLCANO BILLARDS",
+    "address": "CLUB & COFFEE",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/394523831_810571891073712_8783048928484450472_n-20240912042046-g1d-q.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/394608850_811995247598043_354602176335504078_n-20240912042046-awbe3.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/394620328_811995160931385_2657421619519201993_n-20240912042047-cj9ex.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/393243927_809486621182239_2545860908759445261_n-20240912042048-xwptf.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/430892341_898498835614350_9118274894559978742_n-20240912042133-dglhh.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/volcano-billards-club-coffee-20240912040208-gnzw7.png"
+  },
+  {
+    "id": "MI-047",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "OSAKA FOOD &",
+    "address": "DRINK LAKEVIEW",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/441930836_122103411098425307_5871790515973289530_n-20240912042322-bowtt.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452618287_122103424448425307_9193246026557646432_n-20240912042321-njswq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/458959942_122114304116425307_6334013209717063336_n-20240912042320-2eihd.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453407112_122105490614425307_1229803936661156576_n-20240912042321-mekaf.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/454007911_122107526906425307_5823197279878871828_n-20240912042321-2ti8v.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/457657959_122112787388425307_34063674709830952_n-20240912042321-iktdi.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/osaka-food-drink-lakeview-20240912040201-swthd.png"
+  },
+  {
+    "id": "MI-048",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "THE 1995 KAFE",
+    "address": "112 Đường Số 17A, Bình Trị Đông",
+    "investment": "Setup 28 triệu; máy",
+    "model": "Cà phê - Trà - Trà sữa -",
+    "target_customers": "giới trẻ, văn phòng,",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/308575620_146506341412477_6918702867657177647_n-20240912043330-zeour.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/308475223_146506524745792_3944411959840761328_n-20240912043330-hlgus.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/307104424_146506581412453_7245123688259423148_n-20240912043330-kinl-.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/308054198_146506658079112_4701235181471250638_n-20240912043330-733li.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/309308577_147410457988732_377012237592935876_n-20240912043330-osgrg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/312226166_138748338913545_1299366101133801275_n-20240912043523-jvbhf.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/the-1995-kafe-20240912040201-lvk1a.png"
+  },
+  {
+    "id": "MI-049",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "GEMI COFFEE",
+    "address": "69 Bùi Tá Hán, An Phú, Quận 2",
+    "investment": "Gói Máy + Nguyên",
+    "model": "Cà Phê-Bánh",
+    "target_customers": "Khu Căn Hộ",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452845417_122094884846449842_5291097013771981194_n-20240912041625-iap6g.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452927379_122094884702449842_1021520541187963818_n-20240912041625-j1uqn.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/454204946_122103324362449842_1820955718873793873_n-20240912041624-g5xdo.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453510258_122097474290449842_4355041827857909041_n-20240912041624-43n9y.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/454241888_122103324332449842_7332038983527494514_n-20240912041624-phcst.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452610663_122094884816449842_7906404237505869081_n-20240912041717-4vbqe.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/gemi-coffee-20240912040150-ea9lj.png"
+  },
+  {
+    "id": "MI-050",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "GNASCHE",
+    "address": "Tại Shophouse số 0.04 Lô A",
+    "investment": "5etup 28 triệu; máy",
+    "model": "Cà phê - Trà - Nước",
+    "target_customers": "giới trẻ, khách gia đình;",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/344768968_963825541467449_5268049073717592276_n-20240913022446-rc8lv.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/344805829_611707607680954_5143680383742282446_n-20240913022445-3dxio.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4293380524078_7e0bc14e19e2b1314e304966b32467ae-20240913022443-boizq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/345891644_526534853006218_6995947603204995277_n-20240913022443-t8bvx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/343411078_1184492042255004_2272500984082537996_n-20240913022443-aigth.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/344577040_1330810707785484_2574644631324122495_n-20240913022445-ge0e4.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/gnasche-20240912040150-grrhf.png"
+  },
+  {
+    "id": "MI-051",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "BIYOKI FAMILY &",
+    "address": "KIDS COFFEE",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3964181521492_b85d1f64d890b02fbf55ab2ae17596d3-20240913023655-vrycx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3964181527883_eca9a7c5db96a8d985d1078b5c67ac06-20240913023654-dfnyt.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3964181526604_6c19f9a2cb65fec6f86a158e06e3da9c-20240913023654-zt7lz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3964181486161_607c5a32bf454dc7a0b57025f1fa0bab-20240913023653-h5asl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3956760927872_0ad4112e1900edc5972d9730502b7f4c-20240913023656-jedcw.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3964181498906_74b0dcd2e84ad8c44c5be404ed6ad259-20240913023655-hpnug.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/biyoki-family-kids-coffee-20240912040138-k6rc0.png"
+  },
+  {
+    "id": "MI-052",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "THE VOIZE MUSIC",
+    "address": "109 Trần Bình Trọng P2 Q5",
+    "investment": "setup 28 triệu; máy",
+    "model": "Quầy nước phòng trà",
+    "target_customers": "Khách ng Hoa ; nghe",
+    "images": [
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/448020707_443013478660929_8544776889764027338_n-20240912042902-dza6j.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/442428436_429721703323440_2618980795097570627_n-20240912042902-wreei.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/442428423_429719963323614_2831949775441180830_n-20240912042901-cugda.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/355101664_218424704453142_9067109917128549534_n-20240912042901-au3fk.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/444468791_434911472804463_220795879129582123_n-20240912042901-uk9pk.jpg",
+      "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/449516664_455585634070380_4331920022202644070_n-20240912043038-d9b1v.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/the-voize-music-20240912040201-ryoug.png"
+  },
+  {
+    "id": "MI-053",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "GOOD MORNING",
+    "address": "103 Võ Oanh P25 Bình Thạnh",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/q1-20240913022200-bnmwl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/3-20240913022201-ttc9p.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/2-20240913022202--mick.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/q4-20240913022200-8frno.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/4-20240913022200-ac4-7.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/14-20240913022159-ctc0s.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/good-morning-20240912040150-cncbs.png"
+  },
+  {
+    "id": "MI-054",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "GEM KAFE",
+    "address": "Gem Kafe số 134 Nguyễn Thái",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/432705770_122130220862181430_7148305290731390411_n-20240913023201-wuu7k.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/432774334_122130220802181430_2814241269262129030_n-20240913023201-mq1uc.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/433086930_122133061058181430_7495286748306606430_n-20240913023202-y2f0w.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5267473406683_e1923df1fd5c42772b8a7dcb6a1f66c4-20240913023201-5_79l.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/433013114_122130220880181430_2161273341959332168_n-20240913023252-tgj8s.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/432739644_122131835204181430_2489143263598636061_n-20240913023202--1uot.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/gem-kafe-20240912040138-v5yrv.png"
+  },
+  {
+    "id": "MI-055",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "AZURA",
+    "address": "Căn số B-00.04, Khu chung cư",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/346320542_729864385596638_3908040779371795170_n-20240913024225-0iz8j.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/346786174_556302763338110_7926310199699347692_n-20240913024226--nsgj.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/346837421_211076058375502_8769267143739650077_n-20240913024227-1lvy3.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/350833176_966518181155394_1573217214436834607_n-20240913024225-ulquu.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/348561139_937575134193177_1955119311431536672_n-20240913024225-5zdvi.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/321092642_720687379300951_3888296963132210901_n-20240913024225-2f2lh.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/azura-20240912040138-mmble.png"
+  },
+  {
+    "id": "MI-056",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "AGAPI COFFEE &",
+    "address": "TEA",
+    "investment": "800tr",
+    "model": "cafe + trà sữa",
+    "target_customers": "từ 18 đến 25 tuổi",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/318334787_137164785800929_843322461682457835_n-20240913024635-5ekjd.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/305983448_114247351416394_5267557288359702786_n-20240913024636-esxh7.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/306161072_114247434749719_3727918218633981764_n-20240913024636-0eyjk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/326969074_4443901809066995_2535948638757214765_n-20240913024634-1oc4p.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/307285035_116710414503421_5927046333350535854_n-20240913024636-kvtci.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/449160826_439468525570552_815014322007375196_n-20240913024635-z8rha.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/agapi-coffee-tea-20240912040138-meo-5.png"
+  },
+  {
+    "id": "MI-057",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "PH COFFEE",
+    "address": "456 Tỉnh Lộ 15 , Tổ 8, Ấp 3A , Xã",
+    "investment": "500 triệu",
+    "model": "Quán cà phê sân vườn",
+    "target_customers": "Dân địa phương",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4005569880639_cd6ac045bfc5a8e05631112a1e339c15-20240913024915-lhgcc.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4005569880638_80d6807abc5b484307f270d76eab45b7-20240913024915-tlha7.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4005569873483_565806803aad2e57a505f770dea623e3-20240913024918-p9kbx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4009282319762_fc4cfcdd2ddff87e0f1a4414937febf1-20240913024914-dfjhy.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4005569877979_826979b4303c0014f307c8e34aa0ebb3-20240913024916-ujorg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4005569876727_4bc680535da5bcc283857dd95206792d-20240913024917-gxmzb.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/17-20240912040138-kp89b.png"
+  },
+  {
+    "id": "MI-058",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "LUPIS",
+    "address": "288B An Dương Vương Quận 5,",
+    "investment": "tỷ",
+    "model": "Cà phê trà",
+    "target_customers": "học sinh sinh viên",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/3313416c7431b66fef20-20240913021149-d48w9.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3566084524932_de60d6462c862f0c88c5014366ea4f3c-20240913021149-ut6jq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/dd72bceed1bd13e34aac-20240913021149-nwe_e.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3561571785916_3becda5e6a5b7257c3a89aa331c936d8-20240913021151-ibqym.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3566084521080_577827a7c83cd57ff78e4b85c56eb919-20240913021150-cocvw.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/527d04ec9da25ffc06b3-20240913021246-n9t-y.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/lupis-20240912040150-8ic51.png"
+  },
+  {
+    "id": "MI-059",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "NHÀ CÀ PHÊ",
+    "address": "191/4 Đường Số 8, P11, Gò Vấp,",
+    "investment": "Gói Máy + Nguyên",
+    "model": "Cà Phê- TRà Sữa-Sân",
+    "target_customers": "Khách vãng lai , văn",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/440326691_122112734822282092_5860458072691730287_n-20240912070055-ffg7p.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/449714289_2791879024313723_231795733458679454_n-20240912070056-joyif.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/447681036_122121357542282092_9065094122579183493_n-20240912070056-mrs8m.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/441887602_122120262704282092_617528468006300239_n-20240912070054-cae6c.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/438299608_122112577730282092_5950675351598433741_n-20240912070055-oa6cb.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/438262737_122112082118282092_7141870580082257239_n-20240912070055-9jmue.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/nha-ca-phe-20240912040201--5grq.png"
+  },
+  {
+    "id": "MI-060",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "IVI COFFEE",
+    "address": "S6-02.01S01 Vinhomes Grand",
+    "investment": "500 triệu",
+    "model": "Quán cà phê",
+    "target_customers": "Dân cư vinhome,",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/407998558_122116408322094989_8698515855302230611_n-20240913021431-of3pq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/399996619_122109731828094989_8300571774945725597_n-20240913021429-jgzcl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/400094827_122109731852094989_1524448432725646341_n-20240913021430-dzw6l.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/402987909_122112835586094989_6270178351965630508_n-20240913021429-tmndc.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/404679315_122113061846094989_2111730815581463548_n-20240913021429-comqo.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/ivi-coffee-20240912040150-juv0_.png"
+  },
+  {
+    "id": "MI-061",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "M.E.O",
+    "address": "Quán M.E.O số 136 đường 154",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371519558280_d3908a7884f69e6e38828b650f204dce-20240912070450-zsqqs.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450308618_7886264341486811_182572303092762914_n-20240912070412-vsac_.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/449340535_7840631496050096_3396241894561281122_n-20240912070412-tiaij.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450307577_7886264354820143_464271046087501386_n-20240912070412-diyex.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/457274665_8211292808983961_349266888993615034_n-20240912070412-auqbz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/457185657_8199304410182801_710754908545437338_n-20240912070412-vxtt6.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/meo-20240912040150-iiwmw.png"
+  },
+  {
+    "id": "MI-062",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "HUYNH ĐỆ",
+    "address": "112 Tỉnh lộ 10 quận Bình Tân",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5324599557035_baf21878d3e6b9d01616cb5731e6dcfd-20240913021736-eeqd4.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5324599568934_705d78ad72a2ecce480bc2973011f282-20240913021734-mm5yi.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5324599563536_9b73ff4db11f32ea6414be4125d22c98-20240913021812-gps3j.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5324599557773_c2ade74527a29203bc511e5f0c9261ed-20240913021812-cin5x.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5324599561008_82e682a5ce75ea1f6317ebab1979046f-20240913021735-nmi5e.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/huynh-de-20240912040150-6t_yt.png"
+  },
+  {
+    "id": "MI-063",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "CLYN MIK TEA &",
+    "address": "FAST FOOD",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/325651523_1317602479085063_7688210629283520450_n-20240913022820-k--hh.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/305770584_609558044197384_4060003535289374890_n-20240913022818-detr1.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/309673113_622531669566688_5862319772987129026_n-20240913022819-fcmmv.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/341867742_6185377814842047_6313039757210793318_n-20240913022819-zj6bj.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/372824786_823282646158255_24582946753527023_n-20240913022819-rhelg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/295138601_3368765453399413_1514729397078665200_n-20240913022817-tik6q.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/clyn-mik-tea-fast-food-20240912040138-3bphf.png"
+  },
+  {
+    "id": "MI-064",
+    "region": "Miền Nam",
+    "province": "HỒ CHÍ MINH",
+    "name": "CA PHE NHA THUY",
+    "address": "1028/46/1 Tân Kỳ Tân Quý, Bình",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4882002457363_da01fcded3d0e3c7b88ddc2649f594cc-20240913023437-b9lzx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4882002461288_d39ed090044d3961cb9a96d1476e293a-20240913023436-nl3pm.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4882002392171_f0de111c4cd2e1f8d603dfff1e74c634-20240913023439-mm0zn.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4882002405768_8e0178f46269fcdd666de3bdd7e7e65d-20240913023438-g4gqt.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4882002598635_802684e462a5a007078df805e5b7ec95-20240913023436-rxdsg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4882002692855_bf3855d51395585b54bb9eea48092acb-20240913023435-h84w9.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/ca-phe-nha-thuy-20240912040138-qagtc.png"
+  },
+  {
+    "id": "MI-065",
+    "region": "Miền Nam",
+    "province": "BÌNH DƯƠNG",
+    "name": "MÂY COFFEE",
+    "address": "7/20 Khu Phố Bình Đáng tỉnh lộ",
+    "investment": "1tỉ",
+    "model": "Cà phê kết hợp nhà",
+    "target_customers": "Khách vn lai, nhân",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/438254480_361556216907907_3061074948706653574_n-20240913031316-rztn6.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/344794045_191171460425233_6062110562417503280_n-20240913031315-hsfn7.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/456791931_437672225962972_8991392100686093995_n-20240913031316-rpa-l.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/428616860_322486807481515_6114852725616836050_n-20240913031315-w4w6i.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/360091581_185196584543872_591461471781660079_n-20240913031315--8hxd.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/359819105_185196567877207_8585588131533856017_n-20240913031315-slfga.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/may-coffee-20240912040150-61kzq.png"
+  },
+  {
+    "id": "MI-066",
+    "region": "Miền Nam",
+    "province": "BÌNH DƯƠNG",
+    "name": "T-LAND COFFEE",
+    "address": "Đường An Sơn 21, 02C1, ấp An",
+    "investment": "setup 28 triệu; máy",
+    "model": "Cà phê - Trà - Trà sữa",
+    "target_customers": "giới trẻ, khách gia đình;",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3767585039739_26104102570cda6f53bc670d40f82e3d-20240913030240-puamz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3767585080866_317670ee155c41266f36812a44ff4265-20240913030131-zdjgq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3767585054070_fc7d3c49ab6d05dd1d377795ba336f9f-20240913030132-zlkqq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3767585055938_3ccf2e7d0461cffe85654b1fee1d7ea8-20240913030132-wreoy.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3767585067435_e96ae6e9bf3d226dcf3629c403ef78d4-20240913030224-snoku.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3767585073228_7978aca513d0b2c241cc83a927e1b065-20240913030224-oyuxr.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/t-land-coffee-20240912040208-w6y0v.png"
+  },
+  {
+    "id": "MI-067",
+    "region": "Miền Nam",
+    "province": "BÌNH DƯƠNG",
+    "name": "TEA CRUSH",
+    "address": "TTTM Biconsi Uyên Hưng, Tân",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4976093992842_f5956c58ad2f5e6fe6db1ee2542aa02f-20240913030814-s16e1.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4976093950711_58720d945e26f7b1d0a00d354e80b685-20240913030814-khvvl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4976131870671_0f383a3a5b98db2d8a3fdd2a3bf9825d-20240913030840-mebs4.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4976131889387_ed9447bdbafe2c520f492bfc4ca8eda0-20240913030840-w537r.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4976131889388_42cc4868b78458ca2ae5ce81127b164d-20240913030841-gk-gt.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4976093950707_d8e2a7829e2c5727912f7b43b39f35b2-20240913030841-fojgl.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/tea-crush-20240912040201-lnkkg.png"
+  },
+  {
+    "id": "MI-068",
+    "region": "Miền Nam",
+    "province": "BÌNH DƯƠNG",
+    "name": "GUKA COFFEE &",
+    "address": "TEA",
+    "investment": "1tỉ",
+    "model": "CF+khu vui chơi trẻ em",
+    "target_customers": "gia đình, khách địa",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450434818_868912395270660_2006817016802227549_n-20240913030006-c9ape.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450613838_868912278604005_2102720515269713592_n-20240913030008-9pkka.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450369249_868913438603889_5228082389447555317_n-20240913030006-vpw--.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450304224_868913641937202_6797522370632508535_n-20240913030007-44mam.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450581458_868912265270673_2891417298167681774_n-20240913030005-e2xcq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3770235260148_d5081c2b4898489785db1bb4da7b287f-20240913030009-sk5zz.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/guka-coffee-tea-20240912040150-zqio-.png"
+  },
+  {
+    "id": "MI-069",
+    "region": "Miền Nam",
+    "province": "CẦN THƠ",
+    "name": "TIỆM NƯỚC 3 CHỊ EM",
+    "address": "SỐ 75 KHU VỰC THỚI AN 1.",
+    "investment": "Tổng xây dựng + máy",
+    "model": "Cà Phê- TRà Sữa- Ăn",
+    "target_customers": "Khách tỉnh, công nhân,",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453407241_122166139406210681_4046104056377623199_n-20240913032230-9ni4b.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453269214_122166138380210681_8665545977136863285_n-20240913032230-9wa3a.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452692730_122164858094210681_2655332040795691446_n-20240913032229-0-kgs.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453190879_122166139274210681_7323260158295624686_n-20240913032229-bv6qr.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/457126837_122173756004210681_606732805400682945_n-20240913032259-edkvg.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/458521315_122177087534210681_4682502363530495476_n-20240913032300-iwzv6.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/tiem-nuoc-3-chi-em-20240913030518-7bfok.png"
+  },
+  {
+    "id": "MI-070",
+    "region": "Miền Nam",
+    "province": "CẦN THƠ",
+    "name": "_ TIGON COFFEE",
+    "address": "Ấp Thới Thạnh B, Thị trấn Thới",
+    "investment": "500 triệu",
+    "model": "Quán cà phê kết hợp",
+    "target_customers": "Khách địa phương, gia",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4939202098394_6c28659f84474b13f877bcd97f70a90c-20240913032303-fdzb_.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4985460080927_e19846c3c33f63ba7aaeaa252cfee378-20240913032302-vkurc.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4985460086741_d6c1d0d0576519bdd6cfafe371a58bfe-20240913032301-teva0.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4985460096837_7319c1d8855a4ae7788882fc6b153883-20240913032300-1a8ig.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z4958109706667_bbaa9c99868bf8b13ecd3e105b63bf50-20240913032300--d5xb.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/tigon-coffee-20240912040208-rhrof.png"
+  },
+  {
+    "id": "MI-071",
+    "region": "Miền Nam",
+    "province": "BẠC LIÊU",
+    "name": "QUÁN K&N-KOI",
+    "address": "46 đường Trần Huỳnh Khóm 2",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/382161534_122111344940038891_175474986909357610_n-20240913033425-nh8x9.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/379978985_122103950996038891_466243397007651803_n-20240913033423-pcuww.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/452926059_122172400814038891_9189814133669200276_n-20240913033427-fv_lb.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/416280216_122138835746038891_7232496869492243622_n-20240913033426-qwqrd.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/413003991_122135872580038891_9206085818472389900_n-20240913033426-gbjpb.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/414048275_122136305666038891_3352053196359522644_n-20240913033426-y1kmy.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/381498437_122108126492038891_119917919845505698_n-20240913033424-vcan2.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/quan-kn-koi-20240913033107-lf9ec.png"
+  },
+  {
+    "id": "MI-072",
+    "region": "Miền Nam",
+    "province": "TIỀN GIANG",
+    "name": "KATA CAFE",
+    "address": "Góc Đường số 2 + Đường số 4,",
+    "investment": "móc nguyên liệu 35",
+    "model": "trà sữa, cf check in",
+    "target_customers": "giới trẻ, khách gia đình;",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/457819623_122165596904151887_5193277153124246301_n-20240913040846-sxrpc.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/458626995_122166105608151887_8816202441841870985_n-20240913040846--g8qk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/438301854_122142842282151887_6384147935468250081_n-20240913040846-oymwv.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/445777525_122147499218151887_958525437518204082_n-20240913040846-hvgg8.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/431402184_122131578374151887_3544986455725692636_n-20240913040846-lzsb0.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/454528674_122160824870151887_5957083817196763646_n-20240913040846-p5vcy.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/kata-cafe-20240913040810-guadm.png"
+  },
+  {
+    "id": "MI-073",
+    "region": "Miền Nam",
+    "province": "TIỀN GIANG",
+    "name": "COFFEE QUÁN",
+    "address": "Lê Văn Phẩm - Phường 5 - TP.",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6251131548270_6cd72caf1b7a48201b2a6a4999d61d3c-20250315031941-p2lmj.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6251131534129_bdc42060acb1396a582bbba459cd7fb7-20250315031941-6ebpj.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6251131523514_b993878b72b6505aab720ca2ad76772a-20250315031940-3fq7a.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z6251131509623_32a70faa9705d9015a0544676f9038ce-20250315031940-dtlhj.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/coffee-quan-20250315022245-vfxec.png"
+  },
+  {
+    "id": "MI-074",
+    "region": "Miền Nam",
+    "province": "TIỀN GIANG",
+    "name": "SONG SONG",
+    "address": "quán Song Song Coffee & Tea, Số 2",
+    "investment": "Setup 38 triệu; máy",
+    "model": "Sân vườn - cà phê- trà",
+    "target_customers": "giới trẻ, khách gia đình;",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/315649185_464408912497292_6187692634681448611_n-20240913033925-0nmfx.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/439204233_394495156817649_7276948416476787953_n-20240913033944-9owug.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450602970_448090498124781_6487324575106104249_n-20240913033945-mbsew.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/450559894_448090604791437_6362340772682157839_n-20240913033946-9sxgw.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/456213015_472401332360364_8327716093555877093_n-20240913033946-sxmzz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/366373780_247072721559894_4791777061928228660_n-20240913034040-pstmi.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/song-song-20240913033915-jpob1.png"
+  },
+  {
+    "id": "MI-075",
+    "region": "Miền Nam",
+    "province": "LONG AN",
+    "name": "MÉN COFFEE & TEA",
+    "address": "50A ấp Chánh, Đức Hòa Long An",
+    "investment": "tỉ",
+    "model": "cafe + Trà",
+    "target_customers": "Tệp khách hàng đa",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/351136928_1071004760531290_7031831776233695776_n-20240913035559-utgsk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453252222_380753178367864_2539861554465329509_n-20240913035559-mwqbq.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/412836368_244296082013575_2613397652261488152_n-20240913035559-zdntn.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/411890397_244296108680239_2626080616936095041_n-20240913035559-dang2.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/453191174_380329845076864_6714327033008638583_n-20240913035559-af3jf.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/420939871_264481389995044_6502882408800803063_n-20240913035559-j1as_.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/men-coffee-tea-20240913035424-obhfq.png"
+  },
+  {
+    "id": "MI-076",
+    "region": "Miền Nam",
+    "province": "LONG AN",
+    "name": "KIM COFFEE",
+    "address": "N10 KDC Tân Phú Thịnh Khu",
+    "investment": "500tr",
+    "model": "CF, trà kết hợp cửa",
+    "target_customers": "dân địa phương",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/451326563_872497308245502_6396869287008398648_n-20240913035914-lm-td.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/451367920_872497498245483_6954810662900125356_n-20240913035912-ry9_9.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/451381115_872497891578777_6988843087235063804_n-20240913035912-nxr-7.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/451366810_872497324912167_4254867953950358130_n-20240913035913-cjy4w.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/451010257_872497431578823_6589460226894301345_n-1-20240913035914-gscrz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/451418109_872497884912111_5777484854130268418_n-20240913035912-sc0b6.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/kim-coffee-20240913035447-m1lli.png"
+  },
+  {
+    "id": "MI-077",
+    "region": "Miền Nam",
+    "province": "LONG AN",
+    "name": "BẮP COFFEE & KEM",
+    "address": "167 Ấp Minh Thiện Xã Long",
+    "investment": "300tr",
+    "model": "Cf Trà+ kem",
+    "target_customers": "khách địa phương",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371734531977_4b7787343db5ed0327c20955e2bdbdd5-20240913040056-halri.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371734534995_814f94e7ca4d9fa708fd08c9fd885b94-20240913040056-8pnk6.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371734524998_d3c2b6ffdaadcf04347f5faccd26c8be-20240913040055-j6k26.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371734530245_0209fe1689a5df4aabbc7d06453cf9dc-20240913040053-6yih8.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371734525765_77e6e213c8386b369f8b22b7eca82dd9-20240913040054-dkkko.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5371734527999_ab552f8d155ecfaa4e1c6cedffe16060-20240913040053-3c2xm.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/bap-coffee-kem-20240913035458-ny4km.png"
+  },
+  {
+    "id": "MI-078",
+    "region": "Miền Nam",
+    "province": "PHÚ QUỐC",
+    "name": "EMOLIA COFFEE",
+    "address": "TEA& MINI HOTEL",
+    "investment": "",
+    "model": "Cà phê trà+ hotel",
+    "target_customers": "khach du lịch",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/335064758_763052921684003_4864416971306771078_n-20240913034956-n2kuk.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/354594982_213108991632767_3969277884166095097_n-20240913034956-cpq1o.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/346610274_892704428498107_6089872445188135333_n-20240913034956-yhabj.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/351498100_1339376766639741_6807348869771956149_n-20240913034956-yhubl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/330139723_887077635854090_8724059803991893969_n-20240913034956-o1vav.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/378973370_266927069584292_1661171297841018872_n-20240913034956-3ji1e.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/emolia-coffee-tea-mini-hotel-20240913034518-kcwaz.png"
+  },
+  {
+    "id": "MI-079",
+    "region": "Miền Nam",
+    "province": "ĐỒNG NAI",
+    "name": "TH BISTRO",
+    "address": "Tổ 15 ấp 7 ấp An Phước Long",
+    "investment": "setup 38 triệu; máy",
+    "model": "sân vườn; check in",
+    "target_customers": "đa dạng; giới trẻ, gia",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z5118621968329_d84ee87e0e556dee9ad73ad85119e464-20240913040452-qqpv0.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/th-bistro-20240913040511-qyoxe.png"
+  },
+  {
+    "id": "MI-080",
+    "region": "Miền Nam",
+    "province": "TÂY NINH",
+    "name": "HERE N' NOW",
+    "address": "PG1-17 Shophouse Vincom,",
+    "investment": "",
+    "model": "",
+    "target_customers": "",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/406485611_122124854750080605_8204544396657029282_n-20240913041416-ob7xn.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/458489418_122180843738080605_1779855293227809453_n-20240913041416-zrkmy.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/435129988_122152990112080605_8628386941758297421_n-20240913041416-gqrhu.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/458233234_122180920880080605_8416516087293431887_n-20240913041415-zbttc.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/411950264_122129775290080605_1787002738546077959_n-20240913041416-zwzf7.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/409401222_122126820794080605_6666608398172321513_n-20240913041416-3bjjc.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/here-n-now-20240913041402-mrevy.png"
+  },
+  {
+    "id": "MI-081",
+    "region": "Miền Nam",
+    "province": "BÌNH PHƯỚC",
+    "name": "KHÁCH SẠN TÂN HẠNH",
+    "address": "179 Nguyễn Tất Thành , khu phố",
+    "investment": "tứ",
+    "model": "Quán cà phê sân",
+    "target_customers": "Khách vãng lai, khách",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/426146323_122120102588174641_2191158369429676832_n-20240913041655-0mwrz.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/420179804_122111774024174641_4255362775638650509_n-20240913041655-yfyfs.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/420180317_122111761190174641_5530046718497461106_n-20240913041655-di7ss.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/420165170_122111773718174641_3753379512473138697_n-20240913041655-owo5v.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/420042500_122111723246174641_8904695930265287683_n-20240913041654-yqfcb.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/421555169_122115861056174641_4503979689549550103_n-20240913041654-m0nqa.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/39-20240913041719--0rqe.png"
+  },
+  {
+    "id": "MI-082",
+    "region": "Miền Nam",
+    "province": "VŨNG TÀU",
+    "name": "GOLD COFFEE",
+    "address": "140 Trần Hưng Đạo, TT. Ngãi",
+    "investment": "500tr",
+    "model": "Cà phê+ trà",
+    "target_customers": "khách địa phương,",
+    "images": [
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/321855496_1252758031983283_8036847675429888910_n-20240913042006-yshro.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/362224670_237613419216276_8977739280519385177_n-20240913042006-qlqnl.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/326959064_554406273405965_6145212069661535471_n-20240913042036-j0_b5.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/322401617_1584917308614975_3985037565953083420_n-20240913042005-lu8cy.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3982875573494_e7afb2703fe7ab40522dffae51414752-20240913042005-gzels.jpg",
+      "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/z3982875282938_ddba5f17650b804b9d2a4ebc3c8f2df6-20240913042037-zzsyr.jpg"
+    ],
+    "info_card_url": "https://w.ladicdn.com/s750x750/5c45de506b9cc95d393350e9/gold-coffee-20240913041955-qdkjy.png"
+  }
+]
