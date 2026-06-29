@@ -80,7 +80,7 @@ function App() {
         </div>
       </header>
 
-      {/* Hero Banner with background image & Centered Search Bar */}
+      {/* Hero Banner with background image & Integrated Filters */}
       <section className="hero-banner" style={{ backgroundImage: `url(${HERO_BG})` }}>
         <div className="hero-overlay"></div>
         <div className="hero-container">
@@ -93,68 +93,65 @@ function App() {
             Hệ thống quản lý hàng trăm đối tác đã setup thành công khắp 3 miền Bắc - Trung - Nam với trang thiết bị hiện đại & quy chuẩn vận hành tối ưu.
           </p>
           
-          {/* Centered Search Bar */}
-          <div className="hero-search-wrapper">
-            <Search className="hero-search-icon" />
-            <input
-              type="text"
-              placeholder="Nhập tên tỉnh thành, mô hình hoặc tên quán để tìm..."
-              className="hero-search-input"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            {searchQuery && (
-              <button 
-                className="hero-search-clear"
-                onClick={() => setSearchQuery('')}
-                aria-label="Clear search"
-              >
-                <X size={18} />
-              </button>
-            )}
+          {/* Integrated Search & Filter Control Panel */}
+          <div className="hero-control-panel">
+            {/* Row 1: Search Input */}
+            <div className="hero-search-wrapper">
+              <Search className="hero-search-icon" />
+              <input
+                type="text"
+                placeholder="Nhập tên tỉnh thành, mô hình hoặc tên quán..."
+                className="hero-search-input"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              {searchQuery && (
+                <button 
+                  className="hero-search-clear"
+                  onClick={() => setSearchQuery('')}
+                  aria-label="Clear search"
+                >
+                  <X size={18} />
+                </button>
+              )}
+            </div>
+
+            {/* Row 2: Region Tabs & Province Select */}
+            <div className="hero-filters-row">
+              <div className="hero-region-tabs">
+                {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
+                  <button
+                    key={region}
+                    className={`hero-region-tab ${selectedRegion === region ? 'active' : ''}`}
+                    onClick={() => setSelectedRegion(region)}
+                  >
+                    {region}
+                  </button>
+                ))}
+              </div>
+
+              <div className="hero-select-wrapper">
+                <select
+                  className="hero-select-control"
+                  value={selectedProvince}
+                  onChange={(e) => setSelectedProvince(e.target.value)}
+                >
+                  {provinces.map((prov) => (
+                    <option key={prov} value={prov}>
+                      {prov === 'Tất cả' ? 'Tất cả Tỉnh / Thành' : prov}
+                    </option>
+                  ))}
+                </select>
+                <ChevronRight className="hero-select-arrow" style={{ transform: 'rotate(90deg)' }} />
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Main Content Area */}
       <main className="main-content">
-        {/* Supplementary Filters */}
-        <div className="filter-card">
-          <div className="filter-flex-row">
-            <span className="filter-title">Bộ lọc khu vực:</span>
-            
-            {/* Region Tabs */}
-            <div className="region-tabs">
-              {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
-                <button
-                  key={region}
-                  className={`region-tab ${selectedRegion === region ? 'active' : ''}`}
-                  onClick={() => setSelectedRegion(region)}
-                >
-                  {region}
-                </button>
-              ))}
-            </div>
-
-            {/* Province Selection */}
-            <div className="select-wrapper">
-              <select
-                className="select-control"
-                value={selectedProvince}
-                onChange={(e) => setSelectedProvince(e.target.value)}
-              >
-                {provinces.map((prov) => (
-                  <option key={prov} value={prov}>
-                    {prov === 'Tất cả' ? 'Tất cả Tỉnh / Thành phố' : prov}
-                  </option>
-                ))}
-              </select>
-              <ChevronRight className="select-arrow" style={{ transform: 'rotate(90deg)' }} />
-            </div>
-          </div>
-        </div>
-
-        {/* Results Counter if searching */}
+        {/* Results Counter if searching/filtering */}
         {(searchQuery || selectedRegion !== 'Tất cả' || selectedProvince !== 'Tất cả') && (
           <div className="results-counter">
             Tìm thấy <strong>{filteredShops.length}</strong> kết quả phù hợp
