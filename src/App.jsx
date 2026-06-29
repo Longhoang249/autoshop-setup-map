@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass, Grid, Map as MapIcon } from 'lucide-react';
+import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass, Grid, Map as MapIcon, ChevronRight as ArrowIcon } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import shopsData from './data/shops.json';
@@ -16,14 +16,14 @@ const customIcon = new L.Icon({
 // Custom divIcons for Hoàng Sa & Trường Sa to display permanently on the map
 const islandIconHS = L.divIcon({
   className: 'island-marker-label',
-  html: '<div class="island-label-inner"><span class="island-flag">🇻🇳</span> Hoàng Sa</div>',
+  html: '<div class="island-label-inner"><span class="island-flag"></span> Hoàng Sa</div>',
   iconSize: [95, 26],
   iconAnchor: [47, 13]
 });
 
 const islandIconTS = L.divIcon({
   className: 'island-marker-label',
-  html: '<div class="island-label-inner"><span class="island-flag">🇻🇳</span> Trường Sa</div>',
+  html: '<div class="island-label-inner"><span class="island-flag"></span> Trường Sa</div>',
   iconSize: [95, 26],
   iconAnchor: [47, 13]
 });
@@ -47,6 +47,10 @@ function App() {
   const [selectedShop, setSelectedShop] = useState(null);
   const [activeImageIdx, setActiveImageIdx] = useState(0);
   const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'map'
+
+  // Map viewport states
+  const [mapCenter, setMapCenter] = useState([16.0, 106.5]);
+  const [mapZoom, setMapZoom] = useState(6);
 
   // Reset province filter when region changes
   useEffect(() => {
@@ -83,22 +87,33 @@ function App() {
     });
   }, [searchQuery, selectedRegion, selectedProvince]);
 
-  // Map center and zoom calculations
-  const mapCenterAndZoom = useMemo(() => {
+  // Sync map center when filters change
+  useEffect(() => {
     if (selectedProvince !== 'Tất cả') {
       const shopInProvince = filteredShops.find(s => s.province === selectedProvince);
       if (shopInProvince && shopInProvince.lat && shopInProvince.lng) {
-        return { center: [shopInProvince.lat, shopInProvince.lng], zoom: 12 };
+        setMapCenter([shopInProvince.lat, shopInProvince.lng]);
+        setMapZoom(12);
+        return;
       }
     }
     if (selectedRegion !== 'Tất cả') {
-      if (selectedRegion === 'Miền Bắc') return { center: [21.0285, 105.8542], zoom: 8 };
-      if (selectedRegion === 'Miền Trung') return { center: [16.0544, 108.2022], zoom: 8 };
-      if (selectedRegion === 'Miền Nam') return { center: [10.8231, 106.6297], zoom: 8 };
+      if (selectedRegion === 'Miền Bắc') {
+        setMapCenter([21.0285, 105.8542]);
+        setMapZoom(8);
+      } else if (selectedRegion === 'Miền Trung') {
+        setMapCenter([16.0544, 108.2022]);
+        setMapZoom(8);
+      } else if (selectedRegion === 'Miền Nam') {
+        setMapCenter([10.8231, 106.6297]);
+        setMapZoom(8);
+      }
+      return;
     }
     // Default center of Vietnam
-    return { center: [16.0, 106.5], zoom: 6 };
-  }, [selectedRegion, selectedProvince, filteredShops]);
+    setMapCenter([16.0, 106.5]);
+    setMapZoom(6);
+  }, [selectedRegion, selectedProvince]);
 
   const openShopDetails = (shop) => {
     setSelectedShop(shop);
@@ -119,6 +134,13 @@ function App() {
     e.stopPropagation();
     if (!selectedShop || !selectedShop.images.length) return;
     setActiveImageIdx((prev) => (prev - 1 + selectedShop.images.length) % selectedShop.images.length);
+  };
+
+  const handleSidebarItemClick = (shop) => {
+    if (shop.lat && shop.lng) {
+      setMapCenter([shop.lat, shop.lng]);
+      setMapZoom(14); // Zoom closer
+    }
   };
 
   return (
@@ -281,22 +303,52 @@ function App() {
             )}
           </div>
         ) : (
-          /* Interactive Map View */
+          /* Interactive Map View with Sidebar List (Google My Maps style) */
           <div className="map-view-container">
-            {filteredShops.length > 0 ? (
+            {/* Left Sidebar List */}
+            <div className="map-sidebar">
+              <div className="map-sidebar-title">Danh sách quán ({filteredShops.length})</div>
+              <div className="map-sidebar-scroll">
+                {filteredShops.length > 0 ? (
+                  <ul className="map-sidebar-list">
+                    {filteredShops.map((shop) => (
+                      <li 
+                        key={shop.id}
+                        className="map-sidebar-item"
+                        onClick={() => handleSidebarItemClick(shop)}
+                      >
+                        <div className="map-sidebar-item-header">
+                          <span className="map-sidebar-item-name">{shop.name || `Dự án tại ${shop.province}`}</span>
+                          <ArrowIcon size={14} className="map-sidebar-arrow" />
+                        </div>
+                        <p className="map-sidebar-item-address">{shop.address || shop.province}</p>
+                        {shop.model && <span className="map-sidebar-item-badge">{shop.model}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <div className="map-sidebar-empty">Không có dữ liệu</div>
+                )}
+              </div>
+            </div>
+
+            {/* Right Map Canvas */}
+            <div className="map-canvas-area">
               <MapContainer 
-                center={mapCenterAndZoom.center} 
-                zoom={mapCenterAndZoom.zoom} 
+                center={mapCenter} 
+                zoom={mapZoom} 
                 className="interactive-map"
                 scrollWheelZoom={true}
               >
-                <ChangeMapView center={mapCenterAndZoom.center} zoom={mapCenterAndZoom.zoom} />
+                <ChangeMapView center={mapCenter} zoom={mapZoom} />
+                
+                {/* Google Maps Tile Server in Vietnamese (hl=vi) */}
                 <TileLayer
-                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                  url="https://mt1.google.com/vt/lyrs=m&hl=vi&x={x}&y={y}&z={z}"
+                  attribution='&copy; <a href="https://www.google.com/maps">Google Maps</a>'
                 />
                 
-                {/* 100% Correct Political Labels for Hoàng Sa and Trường Sa */}
+                {/* Star Pins for Hoàng Sa and Trường Sa */}
                 <Marker position={[16.5369, 111.6885]} icon={islandIconHS}>
                   <Popup className="shop-map-popup">
                     <div className="popup-card" style={{ padding: '12px' }}>
@@ -347,12 +399,7 @@ function App() {
                   )
                 ))}
               </MapContainer>
-            ) : (
-              <div className="no-results">
-                <h3>Không có dữ liệu bản đồ phù hợp</h3>
-                <p>Thử điều chỉnh bộ lọc để hiển thị các ghim trên bản đồ.</p>
-              </div>
-            )}
+            </div>
           </div>
         )}
       </main>
