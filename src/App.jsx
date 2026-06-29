@@ -136,7 +136,6 @@ function App() {
         <div className="header-container">
           <div className="logo-section">
             <img src={AUTOSHOP_LOGO} alt="Autoshop Logo" className="logo-img" />
-            <h1 className="logo-text">Autoshop Setup</h1>
           </div>
         </div>
       </header>
