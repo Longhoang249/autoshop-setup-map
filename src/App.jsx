@@ -70,15 +70,7 @@ function App() {
 
   return (
     <div className="app-wrapper">
-      {/* Header navbar */}
-      <header className="app-header">
-        <div className="header-container">
-          <div className="logo-section">
-            <img src={AUTOSHOP_LOGO} alt="Autoshop Logo" className="logo-img" />
-            <h1 className="logo-text">Autoshop Setup</h1>
-          </div>
-        </div>
-      </header>
+
 
       {/* Hero Banner with background image & Integrated Filters */}
       <section className="hero-banner" style={{ backgroundImage: `url(${HERO_BG})` }}>
