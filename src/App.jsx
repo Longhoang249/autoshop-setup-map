@@ -1,6 +1,26 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass } from 'lucide-react';
+import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass, Grid, Map as MapIcon } from 'lucide-react';
+import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
+import L from 'leaflet';
 import shopsData from './data/shops.json';
+
+// Leaflet default marker fix
+const customIcon = new L.Icon({
+  iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+});
+
+// Helper component to change map viewport dynamically
+function ChangeMapView({ center, zoom }) {
+  const map = useMap();
+  useEffect(() => {
+    map.setView(center, zoom);
+  }, [center, zoom, map]);
+  return null;
+}
 
 const AUTOSHOP_LOGO = "https://static.ladipage.net/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png";
 const HERO_BG = "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1600";
@@ -11,6 +31,7 @@ function App() {
   const [selectedProvince, setSelectedProvince] = useState('Tất cả');
   const [selectedShop, setSelectedShop] = useState(null);
   const [activeImageIdx, setActiveImageIdx] = useState(0);
+  const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'map'
 
   // Reset province filter when region changes
   useEffect(() => {
@@ -47,6 +68,23 @@ function App() {
     });
   }, [searchQuery, selectedRegion, selectedProvince]);
 
+  // Map center and zoom calculations
+  const mapCenterAndZoom = useMemo(() => {
+    if (selectedProvince !== 'Tất cả') {
+      const shopInProvince = filteredShops.find(s => s.province === selectedProvince);
+      if (shopInProvince && shopInProvince.lat && shopInProvince.lng) {
+        return { center: [shopInProvince.lat, shopInProvince.lng], zoom: 12 };
+      }
+    }
+    if (selectedRegion !== 'Tất cả') {
+      if (selectedRegion === 'Miền Bắc') return { center: [21.0285, 105.8542], zoom: 8 };
+      if (selectedRegion === 'Miền Trung') return { center: [16.0544, 108.2022], zoom: 8 };
+      if (selectedRegion === 'Miền Nam') return { center: [10.8231, 106.6297], zoom: 8 };
+    }
+    // Default center of Vietnam
+    return { center: [16.0, 106.5], zoom: 6 };
+  }, [selectedRegion, selectedProvince, filteredShops]);
+
   const openShopDetails = (shop) => {
     setSelectedShop(shop);
     setActiveImageIdx(0);
@@ -70,7 +108,15 @@ function App() {
 
   return (
     <div className="app-wrapper">
-
+      {/* Header navbar */}
+      <header className="app-header">
+        <div className="header-container">
+          <div className="logo-section">
+            <img src={AUTOSHOP_LOGO} alt="Autoshop Logo" className="logo-img" />
+            <h1 className="logo-text">Autoshop Setup</h1>
+          </div>
+        </div>
+      </header>
 
       {/* Hero Banner with background image & Integrated Filters */}
       <section className="hero-banner" style={{ backgroundImage: `url(${HERO_BG})` }}>
@@ -143,64 +189,136 @@ function App() {
 
       {/* Main Content Area */}
       <main className="main-content">
-        {/* Results Counter if searching/filtering */}
-        {(searchQuery || selectedRegion !== 'Tất cả' || selectedProvince !== 'Tất cả') && (
+        {/* Toggle view mode and results counter */}
+        <div className="view-toggle-row">
           <div className="results-counter">
             Tìm thấy <strong>{filteredShops.length}</strong> kết quả phù hợp
           </div>
-        )}
-
-        {/* Shop List Grid */}
-        <div className="shop-grid">
-          {filteredShops.length > 0 ? (
-            filteredShops.map((shop) => (
-              <div 
-                key={shop.id} 
-                className="shop-card"
-                onClick={() => openShopDetails(shop)}
-              >
-                <div className="card-img-wrapper">
-                  <span className="region-badge">{shop.region}</span>
-                  <span className="province-badge">{shop.province}</span>
-                  <img 
-                    src={shop.images[0] || "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png"} 
-                    alt={shop.name} 
-                    className="card-img" 
-                    loading="lazy"
-                  />
-                </div>
-                <div className="card-info">
-                  <h3 className="card-name">{shop.name || `Dự án tại ${shop.province}`}</h3>
-                  <div className="card-address">
-                    <MapPin className="icon" />
-                    <span>{shop.address || shop.province}</span>
-                  </div>
-                  
-                  {/* Badges metadata */}
-                  {(shop.investment || shop.model) && (
-                    <div className="card-metadata">
-                      {shop.model && (
-                        <span className="meta-badge model">
-                          {shop.model.length > 20 ? `${shop.model.substring(0, 20)}...` : shop.model}
-                        </span>
-                      )}
-                      {shop.investment && (
-                        <span className="meta-badge investment">
-                          {shop.investment}
-                        </span>
-                      )}
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))
-          ) : (
-            <div className="no-results">
-              <h3>Không tìm thấy quán nào phù hợp</h3>
-              <p>Thử nhập từ khóa khác hoặc điều chỉnh bộ lọc.</p>
-            </div>
-          )}
+          <div className="toggle-buttons">
+            <button 
+              className={`toggle-btn ${viewMode === 'grid' ? 'active' : ''}`}
+              onClick={() => setViewMode('grid')}
+            >
+              <Grid size={16} />
+              <span>Xem dạng lưới</span>
+            </button>
+            <button 
+              className={`toggle-btn ${viewMode === 'map' ? 'active' : ''}`}
+              onClick={() => setViewMode('map')}
+            >
+              <MapIcon size={16} />
+              <span>Xem bản đồ</span>
+            </button>
+          </div>
         </div>
+
+        {/* Shop Display Area */}
+        {viewMode === 'grid' ? (
+          /* Grid View */
+          <div className="shop-grid">
+            {filteredShops.length > 0 ? (
+              filteredShops.map((shop) => (
+                <div 
+                  key={shop.id} 
+                  className="shop-card"
+                  onClick={() => openShopDetails(shop)}
+                >
+                  <div className="card-img-wrapper">
+                    <span className="region-badge">{shop.region}</span>
+                    <span className="province-badge">{shop.province}</span>
+                    <img 
+                      src={shop.images[0] || "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png"} 
+                      alt={shop.name} 
+                      className="card-img" 
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="card-info">
+                    <h3 className="card-name">{shop.name || `Dự án tại ${shop.province}`}</h3>
+                    <div className="card-address">
+                      <MapPin className="icon" />
+                      <span>{shop.address || shop.province}</span>
+                    </div>
+                    
+                    {/* Badges metadata */}
+                    {(shop.investment || shop.model) && (
+                      <div className="card-metadata">
+                        {shop.model && (
+                          <span className="meta-badge model">
+                            {shop.model.length > 20 ? `${shop.model.substring(0, 20)}...` : shop.model}
+                          </span>
+                        )}
+                        {shop.investment && (
+                          <span className="meta-badge investment">
+                            {shop.investment}
+                          </span>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ))
+            ) : (
+              <div className="no-results">
+                <h3>Không tìm thấy quán nào phù hợp</h3>
+                <p>Thử nhập từ khóa khác hoặc điều chỉnh bộ lọc.</p>
+              </div>
+            )}
+          </div>
+        ) : (
+          /* Interactive Map View */
+          <div className="map-view-container">
+            {filteredShops.length > 0 ? (
+              <MapContainer 
+                center={mapCenterAndZoom.center} 
+                zoom={mapCenterAndZoom.zoom} 
+                className="interactive-map"
+                scrollWheelZoom={true}
+              >
+                <ChangeMapView center={mapCenterAndZoom.center} zoom={mapCenterAndZoom.zoom} />
+                <TileLayer
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                />
+                {filteredShops.map((shop) => (
+                  shop.lat && shop.lng && (
+                    <Marker 
+                      key={shop.id} 
+                      position={[shop.lat, shop.lng]} 
+                      icon={customIcon}
+                    >
+                      <Popup className="shop-map-popup">
+                        <div className="popup-card">
+                          <img 
+                            src={shop.images[0] || "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png"} 
+                            alt={shop.name} 
+                            className="popup-img"
+                          />
+                          <div className="popup-info">
+                            <h4 className="popup-name">{shop.name || `Dự án tại ${shop.province}`}</h4>
+                            <p className="popup-address">{shop.address || shop.province}</p>
+                            {shop.model && <span className="popup-badge">{shop.model}</span>}
+                            <button 
+                              className="popup-view-btn"
+                              onClick={() => openShopDetails(shop)}
+                            >
+                              Xem chi tiết
+                            </button>
+                          </div>
+                        </div>
+                      </Popup>
+                    </Marker>
+                  )
+                ))}
+              </MapContainer>
+            ) : (
+              <div className="no-results">
+                <h3>Không có dữ liệu bản đồ phù hợp</h3>
+                <p>Thử điều chỉnh bộ lọc để hiển thị các ghim trên bản đồ.</p>
+              </div>
+            )}
+          </div>
+        )}
       </main>
 
       {/* Modal Details Popup */}
