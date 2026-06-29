@@ -13,6 +13,21 @@ const customIcon = new L.Icon({
   popupAnchor: [1, -34],
 });
 
+// Custom divIcons for Hoàng Sa & Trường Sa to display permanently on the map
+const islandIconHS = L.divIcon({
+  className: 'island-marker-label',
+  html: '<div class="island-label-inner"><span class="island-flag">🇻🇳</span> Hoàng Sa</div>',
+  iconSize: [95, 26],
+  iconAnchor: [47, 13]
+});
+
+const islandIconTS = L.divIcon({
+  className: 'island-marker-label',
+  html: '<div class="island-label-inner"><span class="island-flag">🇻🇳</span> Trường Sa</div>',
+  iconSize: [95, 26],
+  iconAnchor: [47, 13]
+});
+
 // Helper component to change map viewport dynamically
 function ChangeMapView({ center, zoom }) {
   const map = useMap();
@@ -280,6 +295,27 @@ function App() {
                   url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 />
+                
+                {/* 100% Correct Political Labels for Hoàng Sa and Trường Sa */}
+                <Marker position={[16.5369, 111.6885]} icon={islandIconHS}>
+                  <Popup className="shop-map-popup">
+                    <div className="popup-card" style={{ padding: '12px' }}>
+                      <h4 style={{ margin: '0 0 4px 0', fontSize: '0.95rem' }}>Quần đảo Hoàng Sa</h4>
+                      <p style={{ margin: 0, fontSize: '0.8rem', color: 'var(--text-muted)' }}>Thuộc thành phố Đà Nẵng, Việt Nam</p>
+                    </div>
+                  </Popup>
+                </Marker>
+
+                <Marker position={[8.6433, 111.9167]} icon={islandIconTS}>
+                  <Popup className="shop-map-popup">
+                    <div className="popup-card" style={{ padding: '12px' }}>
+                      <h4 style={{ margin: '0 0 4px 0', fontSize: '0.95rem' }}>Quần đảo Trường Sa</h4>
+                      <p style={{ margin: 0, fontSize: '0.8rem', color: 'var(--text-muted)' }}>Thuộc tỉnh Khánh Hòa, Việt Nam</p>
+                    </div>
+                  </Popup>
+                </Marker>
+
+                {/* Shop Markers */}
                 {filteredShops.map((shop) => (
                   shop.lat && shop.lng && (
                     <Marker 
