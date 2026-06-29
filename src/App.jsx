@@ -1,8 +1,9 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map } from 'lucide-react';
+import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass } from 'lucide-react';
 import shopsData from './data/shops.json';
 
 const AUTOSHOP_LOGO = "https://static.ladipage.net/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png";
+const HERO_BG = "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1600";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -46,15 +47,6 @@ function App() {
     });
   }, [searchQuery, selectedRegion, selectedProvince]);
 
-  // Statistics counters
-  const stats = useMemo(() => {
-    const total = shopsData.length;
-    const mienBac = shopsData.filter(s => s.region === 'Miền Bắc').length;
-    const mienTrung = shopsData.filter(s => s.region === 'Miền Trung').length;
-    const mienNam = shopsData.filter(s => s.region === 'Miền Nam').length;
-    return { total, mienBac, mienTrung, mienNam };
-  }, []);
-
   const openShopDetails = (shop) => {
     setSelectedShop(shop);
     setActiveImageIdx(0);
@@ -88,52 +80,49 @@ function App() {
         </div>
       </header>
 
-      {/* Hero Banner */}
-      <section className="hero-banner">
+      {/* Hero Banner with background image & Centered Search Bar */}
+      <section className="hero-banner" style={{ backgroundImage: `url(${HERO_BG})` }}>
+        <div className="hero-overlay"></div>
         <div className="hero-container">
-          <h2 className="hero-title">Bản Đồ Setup Quán Việt Nam</h2>
+          <div className="hero-badge">
+            <Compass size={14} />
+            <span>Autoshop Setup Có Mặt Trên Toàn Quốc</span>
+          </div>
+          <h2 className="hero-title">Đồng Hành Kiến Tạo Khởi Nghiệp</h2>
           <p className="hero-subtitle">
-            Hành trình đồng hành cùng hơn {stats.total} chủ quán khởi nghiệp thành công trên khắp cả nước. Thiết bị hiện đại, quy trình bar chuẩn mực.
+            Hệ thống quản lý hàng trăm đối tác đã setup thành công khắp 3 miền Bắc - Trung - Nam với trang thiết bị hiện đại & quy chuẩn vận hành tối ưu.
           </p>
           
-          <div className="stats-container">
-            <div className="stat-item">
-              <span className="stat-val">{stats.total}</span>
-              <span className="stat-lbl">Tổng quán</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-val">{stats.mienBac}</span>
-              <span className="stat-lbl">Miền Bắc</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-val">{stats.mienTrung}</span>
-              <span className="stat-lbl">Miền Trung</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-val">{stats.mienNam}</span>
-              <span className="stat-lbl">Miền Nam</span>
-            </div>
+          {/* Centered Search Bar */}
+          <div className="hero-search-wrapper">
+            <Search className="hero-search-icon" />
+            <input
+              type="text"
+              placeholder="Nhập tên tỉnh thành, mô hình hoặc tên quán để tìm..."
+              className="hero-search-input"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            {searchQuery && (
+              <button 
+                className="hero-search-clear"
+                onClick={() => setSearchQuery('')}
+                aria-label="Clear search"
+              >
+                <X size={18} />
+              </button>
+            )}
           </div>
         </div>
       </section>
 
       {/* Main Content Area */}
       <main className="main-content">
-        {/* Filters Card */}
+        {/* Supplementary Filters */}
         <div className="filter-card">
-          <div className="filter-grid">
-            {/* Search Input */}
-            <div className="search-input-wrapper">
-              <Search className="search-icon" />
-              <input
-                type="text"
-                placeholder="Tìm tên quán, địa chỉ, mô hình..."
-                className="search-input"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-            </div>
-
+          <div className="filter-flex-row">
+            <span className="filter-title">Bộ lọc khu vực:</span>
+            
             {/* Region Tabs */}
             <div className="region-tabs">
               {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
@@ -156,7 +145,7 @@ function App() {
               >
                 {provinces.map((prov) => (
                   <option key={prov} value={prov}>
-                    {prov === 'Tất cả' ? 'Chọn Tỉnh / Thành phố' : prov}
+                    {prov === 'Tất cả' ? 'Tất cả Tỉnh / Thành phố' : prov}
                   </option>
                 ))}
               </select>
@@ -164,6 +153,13 @@ function App() {
             </div>
           </div>
         </div>
+
+        {/* Results Counter if searching */}
+        {(searchQuery || selectedRegion !== 'Tất cả' || selectedProvince !== 'Tất cả') && (
+          <div className="results-counter">
+            Tìm thấy <strong>{filteredShops.length}</strong> kết quả phù hợp
+          </div>
+        )}
 
         {/* Shop List Grid */}
         <div className="shop-grid">
@@ -296,7 +292,7 @@ function App() {
                     </tbody>
                   </table>
 
-                  {/* Standard Map Button (Placeholder or Maps search link) */}
+                  {/* Google Maps Search Link */}
                   <a 
                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selectedShop.name + ' ' + (selectedShop.address || selectedShop.province))}`}
                     target="_blank" 
