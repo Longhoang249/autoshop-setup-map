@@ -1195,8 +1195,7 @@ button, input, select {
 }
 
 .map-mode .map-view-container {
-  flex-grow: 1;
-  height: 100%;
+  height: calc(100vh - 120px) !important;
   border-radius: 0;
   border: none;
   border-top: 1px solid var(--border);
