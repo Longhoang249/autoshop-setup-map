@@ -316,9 +316,6 @@ function App() {
                   <div className="card-img-wrapper">
                     <span className="region-badge">{shop.region}</span>
                     <span className="province-badge">{shop.province}</span>
-                    <span className={`status-badge ${shop.images.length > 0 ? 'live' : 'unverified'}`}>
-                      {shop.images.length > 0 ? '● Hoạt động' : '● Tham khảo'}
-                    </span>
                     <img 
                       src={shop.images[0] || "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png"} 
                       alt={shop.name} 
@@ -382,10 +379,7 @@ function App() {
                           />
                           <div className="map-sidebar-item-details">
                             <div className="map-sidebar-item-header">
-                              <span className="map-sidebar-item-name">
-                                {shop.images.length > 0 && <span className="status-dot live" title="Đang hoạt động" />}
-                                {shop.name || `Dự án tại ${shop.province}`}
-                              </span>
+                              <span className="map-sidebar-item-name">{shop.name || `Dự án tại ${shop.province}`}</span>
                               <ArrowIcon size={14} className="map-sidebar-arrow" />
                             </div>
                             <p className="map-sidebar-item-address">{shop.address || shop.province}</p>
@@ -538,14 +532,10 @@ function App() {
                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selectedShop.name + ' ' + (selectedShop.address || selectedShop.province))}`}
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className={`google-maps-btn ${selectedShop.images && selectedShop.images.length > 0 ? 'verified' : 'unverified'}`}
+                    className="google-maps-btn"
                   >
                     <Map size={18} />
-                    <span>
-                      {selectedShop.images && selectedShop.images.length > 0 
-                        ? 'Xem vị trí trên Google Maps (Đã Xác Minh)' 
-                        : 'Tìm kiếm vị trí trên Google Maps (Tham Khảo)'}
-                    </span>
+                    <span>Xem vị trí trên Google Maps</span>
                   </a>
                 </div>
               </div>

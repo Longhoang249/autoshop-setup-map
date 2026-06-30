@@ -1034,37 +1034,20 @@ button, input, select {
   gap: 10px;
   width: 100%;
   padding: 14px;
+  background-color: var(--primary);
+  color: white;
   border-radius: var(--radius-sm);
   text-decoration: none;
   font-weight: 700;
   font-size: 0.9rem;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(15, 81, 50, 0.15);
   margin-top: auto;
 }
 
-.google-maps-btn.verified {
-  background-color: var(--primary);
-  color: white;
-  box-shadow: 0 4px 12px rgba(15, 81, 50, 0.15);
-  border: 1.5px solid transparent;
-}
-
-.google-maps-btn.verified:hover {
+.google-maps-btn:hover {
   background-color: var(--primary-accent);
   box-shadow: 0 6px 16px rgba(25, 135, 84, 0.25);
-  transform: translateY(-2px);
-}
-
-.google-maps-btn.unverified {
-  background-color: #f1f4f1;
-  color: var(--text-main);
-  border: 1.5px solid var(--border);
-  box-shadow: none;
-}
-
-.google-maps-btn.unverified:hover {
-  background-color: #e5eae5;
-  border-color: var(--text-muted);
   transform: translateY(-2px);
 }
 
