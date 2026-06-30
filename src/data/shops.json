@@ -1720,7 +1720,9 @@
     "investment": "300 triệu",
     "model": "Trà sữa sinh viên",
     "target_customers": "Sinh Viên Trường Đại Học Quốc Gia Hà Nội",
-    "images": [],
+    "images": [
+      "/images/MI-083.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.998554414359855,
     "lng": 105.80004750484848
@@ -1734,7 +1736,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-084.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0312098,
     "lng": 105.7555266
@@ -1748,7 +1752,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-085.png"
+    ],
     "info_card_url": "",
     "lat": 20.98274969955659,
     "lng": 105.78971564239264
@@ -1762,7 +1768,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-086.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.990445441250085,
     "lng": 105.79656668216359
@@ -1776,7 +1784,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-087.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0301157,
     "lng": 105.8490388
@@ -1790,7 +1800,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-088.webp"
+    ],
     "info_card_url": "",
     "lat": 20.993217468754832,
     "lng": 105.80790582452421
@@ -1804,7 +1816,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-089.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.987980949877947,
     "lng": 105.80166493281585
@@ -1818,7 +1832,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-090.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.018444038252543,
     "lng": 105.8032163167118
@@ -1832,7 +1848,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-091.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0243415,
     "lng": 105.8214007
@@ -1846,7 +1864,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-092.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.994739554901546,
     "lng": 105.80471643965517
@@ -1860,7 +1880,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-093.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.00128851337965,
     "lng": 105.78790593068945
@@ -1874,7 +1896,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-094.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.990677559602055,
     "lng": 105.78694482931239
@@ -1888,7 +1912,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-095.png"
+    ],
     "info_card_url": "",
     "lat": 21.01040131238493,
     "lng": 107.31671281736416
@@ -1902,7 +1928,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-096.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9496231,
     "lng": 107.1034058
@@ -1916,7 +1944,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-097.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0886111,
     "lng": 105.3243752
@@ -1930,7 +1960,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-098.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.80757694236891,
     "lng": 106.70835763362754
@@ -1944,7 +1976,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-099.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.498917168292135,
     "lng": 106.39757340855026
@@ -1958,7 +1992,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-100.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.507968546121937,
     "lng": 106.39875245411018
@@ -1972,7 +2008,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-101.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.496635981883276,
     "lng": 106.4133493583664
@@ -1986,7 +2024,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-102.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.928998,
     "lng": 105.9536233
@@ -2000,7 +2040,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-103.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.611843242329627,
     "lng": 106.11882920409859
@@ -2014,7 +2056,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-104.jpg"
+    ],
     "info_card_url": "",
     "lat": 19.817580514745877,
     "lng": 105.79324048223413
@@ -2028,7 +2072,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-105.webp"
+    ],
     "info_card_url": "",
     "lat": 21.1343282,
     "lng": 105.9441554
@@ -2042,7 +2088,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-106.jpg"
+    ],
     "info_card_url": "",
     "lat": 22.682177360042285,
     "lng": 106.31843113738258
@@ -2056,7 +2104,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-107.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.8038042,
     "lng": 106.6354352
@@ -2070,7 +2120,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-108.webp"
+    ],
     "info_card_url": "",
     "lat": 10.7672001,
     "lng": 106.6959439
@@ -2084,7 +2136,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-109.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.6753887,
     "lng": 106.7611118
@@ -2098,7 +2152,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-110.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.7775166,
     "lng": 106.7022458
@@ -2112,7 +2168,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-111.webp"
+    ],
     "info_card_url": "",
     "lat": 10.8792333,
     "lng": 106.6238235
@@ -2126,7 +2184,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-112.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.824837329089146,
     "lng": 106.58975579285098
@@ -2140,7 +2200,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-113.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.82403799643313,
     "lng": 106.58853149295295
@@ -2154,7 +2216,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-114.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.792536930320907,
     "lng": 106.59669786187058
@@ -2168,7 +2232,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-115.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.79161486100729,
     "lng": 106.61824140047473
@@ -2182,7 +2248,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-116.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.817903589734403,
     "lng": 106.57965592987473
@@ -2196,7 +2264,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-117.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.7725548,
     "lng": 106.6678793
@@ -2210,7 +2280,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-118.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.7773881,
     "lng": 106.6295363
@@ -2224,7 +2296,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-119.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.7566993,
     "lng": 106.6465801
@@ -2238,7 +2312,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-120.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.791565785213962,
     "lng": 106.5822152003224
@@ -2252,7 +2328,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-121.webp"
+    ],
     "info_card_url": "",
     "lat": 10.822380049119657,
     "lng": 106.58985951991546
@@ -2266,7 +2344,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-122.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.690166105946425,
     "lng": 108.88211505717055
@@ -2280,7 +2360,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-123.png"
+    ],
     "info_card_url": "",
     "lat": 11.713837607991639,
     "lng": 108.88928381312604
@@ -2294,7 +2376,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-124.png"
+    ],
     "info_card_url": "",
     "lat": 11.709246138901522,
     "lng": 108.90705091463842
@@ -2308,7 +2392,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-125.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.5073596546377,
     "lng": 107.19915009483668
@@ -2322,7 +2408,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-126.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.511455985126943,
     "lng": 107.18617527198204
@@ -2336,7 +2424,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-127.png"
+    ],
     "info_card_url": "",
     "lat": 10.514573788991914,
     "lng": 107.19231544518425
@@ -2350,7 +2440,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-128.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.099067112107338,
     "lng": 106.7014684085348
@@ -2364,7 +2456,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-129.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.0429153,
     "lng": 106.6713159
@@ -2378,7 +2472,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-130.jpg"
+    ],
     "info_card_url": "",
     "lat": 22.3232357,
     "lng": 103.6226099
@@ -2392,7 +2488,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-131.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9824511,
     "lng": 105.7786217
@@ -2406,7 +2504,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-132.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.3122239,
     "lng": 106.107071
@@ -2420,7 +2520,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-133.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.382426140476104,
     "lng": 106.08401550071488
@@ -2434,7 +2536,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-134.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.3223025,
     "lng": 106.1028536
@@ -2448,7 +2552,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-135.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9062237,
     "lng": 105.9525357
@@ -2462,7 +2568,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-136.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.114327707149215,
     "lng": 106.68811951622789
@@ -2476,7 +2584,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-137.webp"
+    ],
     "info_card_url": "",
     "lat": 13.813936799520977,
     "lng": 109.10078448646672
@@ -2490,7 +2600,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-138.jpg"
+    ],
     "info_card_url": "",
     "lat": 13.814598900253944,
     "lng": 109.09707566143119
@@ -2504,7 +2616,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-139.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.005180303692214,
     "lng": 105.12261162636683
@@ -2518,7 +2632,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-140.jpg"
+    ],
     "info_card_url": "",
     "lat": 9.997834520693598,
     "lng": 105.11397632036275
@@ -2532,7 +2648,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-141.webp"
+    ],
     "info_card_url": "",
     "lat": 9.991243600503205,
     "lng": 105.11831600202194
@@ -2546,7 +2664,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-142.jpg"
+    ],
     "info_card_url": "",
     "lat": 16.0297665,
     "lng": 108.2371773
@@ -2560,7 +2680,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-143.jpg"
+    ],
     "info_card_url": "",
     "lat": 16.0524717,
     "lng": 108.1696977
@@ -2574,7 +2696,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-144.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.986383955033258,
     "lng": 108.18998720349714
@@ -2588,7 +2712,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-145.jpg"
+    ],
     "info_card_url": "",
     "lat": 16.001650014572363,
     "lng": 108.20170224059987
@@ -2602,7 +2728,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-146.jpg"
+    ],
     "info_card_url": "",
     "lat": 16.0656281,
     "lng": 108.2224335
@@ -2616,7 +2744,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-147.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.087177787526517,
     "lng": 108.79659322171132
@@ -2630,7 +2760,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-148.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.093512931730599,
     "lng": 108.8163871012525
@@ -2644,7 +2776,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-149.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.095681802806647,
     "lng": 108.81751918551988
@@ -2658,7 +2792,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-150.jpg"
+    ],
     "info_card_url": "",
     "lat": 16.4584202,
     "lng": 107.5919746
@@ -2672,7 +2808,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-151.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.608015547318445,
     "lng": 107.78527514855789
@@ -2686,7 +2824,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-152.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.607093005150624,
     "lng": 107.78156506962809
@@ -2700,7 +2840,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-153.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.7799489,
     "lng": 108.2615463
@@ -2714,7 +2856,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-154.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.594647470899021,
     "lng": 107.77885854379619
@@ -2728,7 +2872,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-155.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.650718,
     "lng": 106.6136083
@@ -2742,7 +2888,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-156.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0283334,
     "lng": 105.854041
@@ -2756,7 +2904,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-157.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.715336655706832,
     "lng": 107.91223450315553
@@ -2770,7 +2920,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-158.webp"
+    ],
     "info_card_url": "",
     "lat": 15.710138562303603,
     "lng": 107.88594972552825
@@ -2784,7 +2936,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-159.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.705142544142792,
     "lng": 107.88339385391781
@@ -2798,7 +2952,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-160.jpg"
+    ],
     "info_card_url": "",
     "lat": 15.70346291909247,
     "lng": 107.87998061383543
@@ -2812,7 +2968,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-161.webp"
+    ],
     "info_card_url": "",
     "lat": 15.696332293680682,
     "lng": 107.90948366353567
@@ -2826,7 +2984,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-162.jpg"
+    ],
     "info_card_url": "",
     "lat": 17.51105463758834,
     "lng": 106.29254324688091
@@ -2840,7 +3000,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-163.jpg"
+    ],
     "info_card_url": "",
     "lat": 16.8101362,
     "lng": 107.1035415
@@ -2854,7 +3016,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-164.jpg"
+    ],
     "info_card_url": "",
     "lat": 14.302435473824747,
     "lng": 108.00645880095233
@@ -2868,7 +3032,9 @@
     "investment": "",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-165.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.290258351085495,
     "lng": 105.21965698111323
@@ -2882,7 +3048,9 @@
     "investment": "500000000.0",
     "model": "Trà sữa nướng, bắt trend",
     "target_customers": "Học sinh sinh viên, giới trẻ 18-25t",
-    "images": [],
+    "images": [
+      "/images/MI-166.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9233689,
     "lng": 105.8426967
@@ -2896,7 +3064,9 @@
     "investment": "300000000.0",
     "model": "Trà sữa bắt trend",
     "target_customers": "Học sinh sinh viên, giới trẻ 18-25t",
-    "images": [],
+    "images": [
+      "/images/MI-167.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.8801560676915,
     "lng": 106.28673983699797
@@ -2910,7 +3080,9 @@
     "investment": "800000000.0",
     "model": "Cà phê trà sữa đồ ăn vặt",
     "target_customers": "Học sinh sinh viên, giới trẻ 18-25t",
-    "images": [],
+    "images": [
+      "/images/MI-168.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.7658696,
     "lng": 106.6546226
@@ -2924,7 +3096,9 @@
     "investment": "200000000.0",
     "model": "Đồ uống văn phòng",
     "target_customers": "NV văn phòng trong khi vực",
-    "images": [],
+    "images": [
+      "/images/MI-169.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0115868,
     "lng": 105.7547059
@@ -2938,7 +3112,9 @@
     "investment": "1,5Tỷ",
     "model": "Cà phê + Trà sữa trà hoa quả",
     "target_customers": "Giới trẻ + Dân văn phòng",
-    "images": [],
+    "images": [
+      "/images/MI-170.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.003151800873464,
     "lng": 107.28857347358556
@@ -2952,7 +3128,9 @@
     "investment": "400,000,000",
     "model": "",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-171.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.0206389,
     "lng": 105.786589
@@ -2966,7 +3144,9 @@
     "investment": "800,000,000",
     "model": "Trà sữa olong đậm vị",
     "target_customers": "Giới trẻ nhu cầu checkin",
-    "images": [],
+    "images": [
+      "/images/MI-172.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.993649635669968,
     "lng": 105.8094586880897
@@ -2980,7 +3160,9 @@
     "investment": "400,000,000",
     "model": "Cà Phê + Trà hoa quả",
     "target_customers": "Dân Văn Phòng",
-    "images": [],
+    "images": [
+      "/images/MI-173.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.011349928181904,
     "lng": 105.7940259515945
@@ -2994,7 +3176,9 @@
     "investment": "500,000,000",
     "model": "Cà Phê + Trà",
     "target_customers": "Khách trung niên",
-    "images": [],
+    "images": [
+      "/images/MI-174.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9956253,
     "lng": 105.8428301
@@ -3008,7 +3192,9 @@
     "investment": "400,000,000",
     "model": "Trà sữa",
     "target_customers": "Giới trẻ, học sinh cấp 3 và sv đại học",
-    "images": [],
+    "images": [
+      "/images/MI-175.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0312098,
     "lng": 105.7555266
@@ -3022,7 +3208,9 @@
     "investment": "500,000,000",
     "model": "Trà sữa + Lẩu",
     "target_customers": "Giới trẻ + sinh viên",
-    "images": [],
+    "images": [
+      "/images/MI-176.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9867827,
     "lng": 105.7905368
@@ -3036,7 +3224,9 @@
     "investment": "700,000,000",
     "model": "Cà phê + đồ uống healthy",
     "target_customers": "Dân văn phòng",
-    "images": [],
+    "images": [
+      "/images/MI-177.jpg"
+    ],
     "info_card_url": "",
     "lat": 22.705536063168893,
     "lng": 106.31372677461604
@@ -3050,7 +3240,9 @@
     "investment": "300tr",
     "model": "Cà Phê + Trà hoa quả",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-178.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.20781751162441,
     "lng": 106.09006101608742
@@ -3064,7 +3256,9 @@
     "investment": "600tr-700tr",
     "model": "Trà sữa + Trà hoa quả và bánh",
     "target_customers": "",
-    "images": [],
+    "images": [
+      "/images/MI-179.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0380246,
     "lng": 105.8836241
@@ -3078,7 +3272,9 @@
     "investment": "1,200,000",
     "model": "Cafe văn phòng",
     "target_customers": "Giới trẻ văn phòng",
-    "images": [],
+    "images": [
+      "/images/MI-180.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.018333103323016,
     "lng": 105.81711933340213
@@ -3092,7 +3288,9 @@
     "investment": "800tr",
     "model": "Trà sữa, sân vườn, campping",
     "target_customers": "Giới trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-181.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.69637742112197,
     "lng": 105.30106432349424
@@ -3106,7 +3304,9 @@
     "investment": "1,000,000,000",
     "model": "Cà phê, kem, trà",
     "target_customers": "giới trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-182.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.991897764146383,
     "lng": 107.3092799692456
@@ -3120,7 +3320,9 @@
     "investment": "600tr",
     "model": "Trà sữa, kem đồ ăn vặt",
     "target_customers": "Học sinh, giới trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-183.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0209568,
     "lng": 105.938155
@@ -3134,7 +3336,9 @@
     "investment": "x",
     "model": "Cafe và trà",
     "target_customers": "Tệp dân cư, gia đình",
-    "images": [],
+    "images": [
+      "/images/MI-184.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.98827916805258,
     "lng": 105.80889991755691
@@ -3148,7 +3352,9 @@
     "investment": "x",
     "model": "Cà phê + trà sữa",
     "target_customers": "Khách lẻ",
-    "images": [],
+    "images": [
+      "/images/MI-185.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9779977,
     "lng": 106.5973986
@@ -3162,7 +3368,9 @@
     "investment": "",
     "model": "phong cách Huế , cà phê máy, trà Huế và ẩm thực đồ ăn Huế",
     "target_customers": "30t trở lên + có tài chính",
-    "images": [],
+    "images": [
+      "/images/MI-186.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.000285923941895,
     "lng": 105.799141840087
@@ -3176,7 +3384,9 @@
     "investment": "2 Tỷ",
     "model": "Cà phê máy và trà hoa quả, nước ép",
     "target_customers": "Sinh viên + người đam mê sách",
-    "images": [],
+    "images": [
+      "/images/MI-187.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.010084536252656,
     "lng": 105.8125844805225
@@ -3190,7 +3400,9 @@
     "investment": "300-400tr",
     "model": "Kem tươi kết hợp trà sữa topping kem trứng và trà hoa quả.",
     "target_customers": "văn phòng và đội ngũ 4000 sinh viên trường ĐH Tài nguyên môi trường.",
-    "images": [],
+    "images": [
+      "/images/MI-188.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0525958,
     "lng": 105.7803871
@@ -3204,7 +3416,9 @@
     "investment": "800TR",
     "model": "CÀ PHÊ SÂN VƯỜN",
     "target_customers": "KHÁCH HÀNG KINH DOANH, KHÁCH DU LỊCH TRUNG QUỐC",
-    "images": [],
+    "images": [
+      "/images/MI-189.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.5167591,
     "lng": 107.9819659
@@ -3218,7 +3432,9 @@
     "investment": "700tr",
     "model": "TRÀ SỮA CAO CÂP",
     "target_customers": "Các bạn nữ, các bạn trẻ, dân văn phòng trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-190.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0208142,
     "lng": 105.6091766
@@ -3232,7 +3448,9 @@
     "investment": "400tr",
     "model": "CÀ PHÊ, TRÀ SỮA",
     "target_customers": "Dân kinh doanh, học sinh, các bạn trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-191.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0535365,
     "lng": 107.1866885
@@ -3246,7 +3464,9 @@
     "investment": "500tr",
     "model": "TRÀ PHA MÁY & KEM",
     "target_customers": "Thanh niên, dân văn phòng, gia đình trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-192.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.9923834,
     "lng": 105.9769629
@@ -3260,7 +3480,9 @@
     "investment": "700tr",
     "model": "TRÀ PHA MÁY",
     "target_customers": "Học sinh, sinh viên, thanh niên",
-    "images": [],
+    "images": [
+      "/images/MI-193.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.5874871,
     "lng": 105.8015959
@@ -3274,7 +3496,9 @@
     "investment": "900tr",
     "model": "TRÀ PHA MÁY",
     "target_customers": "Thanh niên, gia đình, văn phòng",
-    "images": [],
+    "images": [
+      "/images/MI-194.jpg"
+    ],
     "info_card_url": "",
     "lat": 19.8053115,
     "lng": 105.752611
@@ -3288,7 +3512,9 @@
     "investment": "600TR",
     "model": "TRÀ PHA MÁY, KEM TƯƠI, CÀ PHÊ,  ĂN VẶT",
     "target_customers": "Công nhân khu công nghiệp",
-    "images": [],
+    "images": [
+      "/images/MI-195.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.4342404,
     "lng": 105.8962156
@@ -3302,7 +3528,9 @@
     "investment": "1 tỷ",
     "model": "COFFEE, TRÀ PHA MÁY, KEM TƯƠI",
     "target_customers": "Thanh niên, dân công sở, học sinh, gia đình",
-    "images": [],
+    "images": [
+      "/images/MI-196.webp"
+    ],
     "info_card_url": "",
     "lat": 20.9179864,
     "lng": 106.6748497
@@ -3316,7 +3544,9 @@
     "investment": "1 TỶ 2",
     "model": "TRÀ PHA MÁY + MỲ CAY",
     "target_customers": "HỌC SINH, THANH NIÊN, GIA ĐÌNH TRẺ",
-    "images": [],
+    "images": [
+      "/images/MI-197.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.6147084,
     "lng": 105.155587
@@ -3330,7 +3560,9 @@
     "investment": "500TR",
     "model": "BÁNH TỐM + CAFE",
     "target_customers": "GIA ĐÌNH, VĂN PHÒNG",
-    "images": [],
+    "images": [
+      "/images/MI-198.webp"
+    ],
     "info_card_url": "",
     "lat": 16.0719313,
     "lng": 108.2196645
@@ -3344,7 +3576,9 @@
     "investment": "500TR",
     "model": "TRÀ PHA MÁY",
     "target_customers": "HỌC SINH, KHÁCH DU LỊCH",
-    "images": [],
+    "images": [
+      "/images/MI-199.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.998738492265595,
     "lng": 105.7839279367795
@@ -3358,7 +3592,9 @@
     "investment": "800TR",
     "model": "TRÀ PHA MÁY (SÂN VƯỜN)",
     "target_customers": "GIA ĐÌNH TRẺ, CÔNG NHÂN, THANH NIÊN",
-    "images": [],
+    "images": [
+      "/images/MI-200.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.603864974695277,
     "lng": 106.10286440360349
@@ -3372,7 +3608,9 @@
     "investment": "800TR",
     "model": "TRÀ PHA MÁY (SÂN VƯỜN)",
     "target_customers": "Học sinh, sinh viên, thanh niên, gia đình trẻ",
-    "images": [],
+    "images": [
+      "/images/MI-201.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0346219,
     "lng": 105.7888949
@@ -3386,7 +3624,9 @@
     "investment": "1 TỶ",
     "model": "TRÀ PHA MÁY VÀ CÀ PHÊ",
     "target_customers": "THANH NIÊN, KHÁCH DU LỊCH",
-    "images": [],
+    "images": [
+      "/images/MI-202.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.014493172370372,
     "lng": 107.31470119240579
@@ -3400,7 +3640,9 @@
     "investment": "1 TỶ 4",
     "model": "TRÀ PHA MÁY (SÂN VƯỜN)",
     "target_customers": "THANH NIÊN, GIA ĐÌNH TRẺ",
-    "images": [],
+    "images": [
+      "/images/MI-203.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.01644893120191,
     "lng": 105.80941082567644
@@ -3414,7 +3656,9 @@
     "investment": "2 TỶ",
     "model": "CÀ PHÊ VĂN PHÒNG, CÀ PHÊ DƯỠNG TÂM",
     "target_customers": "VĂN PHÒNG, CƯ DÂN",
-    "images": [],
+    "images": [
+      "/images/MI-204.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.009983706768033,
     "lng": 105.78067336172357
@@ -3428,7 +3672,9 @@
     "investment": "600TR",
     "model": "TRÀ PHA MÁY HIỆN ĐẠI",
     "target_customers": "DÂN VĂN PHÒNG, THANH NIÊN",
-    "images": [],
+    "images": [
+      "/images/MI-205.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.0122043,
     "lng": 106.3302706
@@ -3442,7 +3688,9 @@
     "investment": "1 TỶ 2",
     "model": "TRÀ PHA MÁY HIỆN ĐẠI, SÂN VƯỜN",
     "target_customers": "DÂN VĂN PHÒNG, THANH NIÊN, GIA ĐÌNH TRẺ, KHÁCH DU LỊCH",
-    "images": [],
+    "images": [
+      "/images/MI-206.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.208121904171428,
     "lng": 105.8872115201573
@@ -3456,7 +3704,9 @@
     "investment": "800TR",
     "model": "TRÀ - BÁNH",
     "target_customers": "THANH NIÊN, VĂN PHÒNG, CÔNG NHÂN KHU CÔNG NGHIỆP",
-    "images": [],
+    "images": [
+      "/images/MI-207.jpg"
+    ],
     "info_card_url": "",
     "lat": 21.038218,
     "lng": 106.0778019
@@ -3470,7 +3720,9 @@
     "investment": "3 TỶ",
     "model": "TỔ HỢP KHU VUI CHƠI, SIÊU THỊ, ĂN UỐNG",
     "target_customers": "GIA ĐÌNH, HỌC SINH, CÔNG NHÂN",
-    "images": [],
+    "images": [
+      "/images/MI-208.jpg"
+    ],
     "info_card_url": "",
     "lat": 20.718105859007785,
     "lng": 105.28441080021732
@@ -3484,7 +3736,9 @@
     "investment": "Gói Máy + Nguyên Liệu :53triệu",
     "model": "Cà Phê-Bar",
     "target_customers": "Khu Căn Hộ",
-    "images": [],
+    "images": [
+      "/images/MI-209.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.7502349,
     "lng": 106.6137911
@@ -3498,7 +3752,9 @@
     "investment": "setup 28 triệu; máy móc nguyên liệu 30 triệu",
     "model": "Cf; trà sữa; có phòng lạnh; có vỉa hè; tích hợp",
     "target_customers": "đa dạng",
-    "images": [],
+    "images": [
+      "/images/MI-210.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.693858499290698,
     "lng": 108.89263891751919
@@ -3512,7 +3768,9 @@
     "investment": "Gói setup 28 triệu; máy móc nguyên liệu 200 triệu",
     "model": "Cà Phê- TRà Sữa- Ăn Vặt- khác",
     "target_customers": "giới trẻ, khách gia đình; dân cư; vãng lai",
-    "images": [],
+    "images": [
+      "/images/MI-211.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.5652939,
     "lng": 108.9995634
@@ -3526,7 +3784,9 @@
     "investment": "500 triệu",
     "model": "Quán cà phê sân vườn",
     "target_customers": "Khách địa phương",
-    "images": [],
+    "images": [
+      "/images/MI-212.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.81040660722375,
     "lng": 106.60795503958477
@@ -3540,7 +3800,9 @@
     "investment": "100 triệu",
     "model": "Quán cà phê kiot",
     "target_customers": "Khách địa phương",
-    "images": [],
+    "images": [
+      "/images/MI-213.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.1164287,
     "lng": 105.2846208
@@ -3554,7 +3816,9 @@
     "investment": "200 triệu",
     "model": "Trà sữa kết hợp thức ăn nhanh",
     "target_customers": "Học sinh, nhân viên văn phòng",
-    "images": [],
+    "images": [
+      "/images/MI-214.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.824254351126605,
     "lng": 106.60852416380267
@@ -3568,7 +3832,9 @@
     "investment": "200tr",
     "model": "cafe + trà",
     "target_customers": "VP + Cư Dân",
-    "images": [],
+    "images": [
+      "/images/MI-215.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.776490478389618,
     "lng": 106.59398546661032
@@ -3582,7 +3848,9 @@
     "investment": "5 tỉ",
     "model": "cafe +  điểm tâm + Nghĩ Dưỡng",
     "target_customers": "Khách Du Lịch",
-    "images": [],
+    "images": [
+      "/images/MI-216.jpg"
+    ],
     "info_card_url": "",
     "lat": 11.7517923,
     "lng": 108.124535
@@ -3596,7 +3864,9 @@
     "investment": "300tr",
     "model": "Cf Trà+ kem",
     "target_customers": "khách địa phương",
-    "images": [],
+    "images": [
+      "/images/MI-217.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.679598693278551,
     "lng": 106.283039502694
@@ -3610,7 +3880,9 @@
     "investment": "2 tỉ",
     "model": "Phòng trà+ bida",
     "target_customers": "kháách vãng lai, dân văn phòng, sinh viên, khách địa phương",
-    "images": [],
+    "images": [
+      "/images/MI-218.jpg"
+    ],
     "info_card_url": "",
     "lat": 10.6753887,
     "lng": 106.7611118
