@@ -61,9 +61,9 @@ function App() {
     return ['Tất cả', ...Array.from(list).sort()];
   }, [selectedRegion]);
 
-  // Filter shops based on search query, region, and province
+  // Filter and sort shops based on search query, region, province, and active status
   const filteredShops = useMemo(() => {
-    return shopsData.filter(shop => {
+    const filtered = shopsData.filter(shop => {
       const matchRegion = selectedRegion === 'Tất cả' || shop.region === selectedRegion;
       const matchProvince = selectedProvince === 'Tất cả' || shop.province === selectedProvince;
       
@@ -75,6 +75,15 @@ function App() {
         (shop.model && shop.model.toLowerCase().includes(query));
 
       return matchRegion && matchProvince && matchSearch;
+    });
+
+    // Sort: Verified active shops (with images) first, unverified/closed shops (no images) last
+    return [...filtered].sort((a, b) => {
+      const aHasImages = a.images && a.images.length > 0;
+      const bHasImages = b.images && b.images.length > 0;
+      if (aHasImages && !bHasImages) return -1;
+      if (!aHasImages && bHasImages) return 1;
+      return 0; // maintain relative order
     });
   }, [searchQuery, selectedRegion, selectedProvince]);
 
@@ -307,6 +316,9 @@ function App() {
                   <div className="card-img-wrapper">
                     <span className="region-badge">{shop.region}</span>
                     <span className="province-badge">{shop.province}</span>
+                    <span className={`status-badge ${shop.images.length > 0 ? 'live' : 'unverified'}`}>
+                      {shop.images.length > 0 ? '● Hoạt động' : '● Tham khảo'}
+                    </span>
                     <img 
                       src={shop.images[0] || "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png"} 
                       alt={shop.name} 
@@ -370,7 +382,10 @@ function App() {
                           />
                           <div className="map-sidebar-item-details">
                             <div className="map-sidebar-item-header">
-                              <span className="map-sidebar-item-name">{shop.name || `Dự án tại ${shop.province}`}</span>
+                              <span className="map-sidebar-item-name">
+                                {shop.images.length > 0 && <span className="status-dot live" title="Đang hoạt động" />}
+                                {shop.name || `Dự án tại ${shop.province}`}
+                              </span>
                               <ArrowIcon size={14} className="map-sidebar-arrow" />
                             </div>
                             <p className="map-sidebar-item-address">{shop.address || shop.province}</p>
@@ -523,10 +538,14 @@ function App() {
                     href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(selectedShop.name + ' ' + (selectedShop.address || selectedShop.province))}`}
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="google-maps-btn"
+                    className={`google-maps-btn ${selectedShop.images && selectedShop.images.length > 0 ? 'verified' : 'unverified'}`}
                   >
                     <Map size={18} />
-                    <span>Xem vị trí trên Google Maps</span>
+                    <span>
+                      {selectedShop.images && selectedShop.images.length > 0 
+                        ? 'Xem vị trí trên Google Maps (Đã Xác Minh)' 
+                        : 'Tìm kiếm vị trí trên Google Maps (Tham Khảo)'}
+                    </span>
                   </a>
                 </div>
               </div>

@@ -456,6 +456,33 @@ button, input, select {
   letter-spacing: 0.02em;
 }
 
+.status-badge {
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  z-index: 10;
+  font-weight: 700;
+  font-size: 0.65rem;
+  padding: 4px 10px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(4px);
+  box-shadow: var(--shadow-sm);
+}
+
+.status-badge.live {
+  background-color: rgba(25, 135, 84, 0.9);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.status-badge.unverified {
+  background-color: rgba(108, 117, 125, 0.85);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .card-info {
   padding: 22px;
   display: flex;
@@ -622,6 +649,9 @@ button, input, select {
 }
 
 .map-sidebar-item-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--text-main);
@@ -629,6 +659,19 @@ button, input, select {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: inline-block;
+}
+
+.status-dot.live {
+  background-color: var(--primary-accent);
+  box-shadow: 0 0 8px var(--primary-accent);
 }
 
 .map-sidebar-arrow {
@@ -983,6 +1026,7 @@ button, input, select {
 }
 
 /* Map CTA Button in Modal */
+/* Map CTA Button in Modal */
 .google-maps-btn {
   display: flex;
   align-items: center;
@@ -990,20 +1034,37 @@ button, input, select {
   gap: 10px;
   width: 100%;
   padding: 14px;
-  background-color: var(--primary);
-  color: white;
   border-radius: var(--radius-sm);
   text-decoration: none;
   font-weight: 700;
   font-size: 0.9rem;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(15, 81, 50, 0.15);
   margin-top: auto;
 }
 
-.google-maps-btn:hover {
+.google-maps-btn.verified {
+  background-color: var(--primary);
+  color: white;
+  box-shadow: 0 4px 12px rgba(15, 81, 50, 0.15);
+  border: 1.5px solid transparent;
+}
+
+.google-maps-btn.verified:hover {
   background-color: var(--primary-accent);
   box-shadow: 0 6px 16px rgba(25, 135, 84, 0.25);
+  transform: translateY(-2px);
+}
+
+.google-maps-btn.unverified {
+  background-color: #f1f4f1;
+  color: var(--text-main);
+  border: 1.5px solid var(--border);
+  box-shadow: none;
+}
+
+.google-maps-btn.unverified:hover {
+  background-color: #e5eae5;
+  border-color: var(--text-muted);
   transform: translateY(-2px);
 }
 
