@@ -146,66 +146,6 @@ function App() {
 
   return (
     <div className={`app-wrapper ${viewMode}-mode`}>
-      {/* Header navbar */}
-      <header className="app-header">
-        <div className="header-container">
-          <div className="logo-section">
-            <img src={AUTOSHOP_LOGO} alt="Autoshop Logo" className="logo-img" />
-          </div>
-          
-          {/* Compact filters inside header when in map mode */}
-          {viewMode === 'map' && (
-            <div className="compact-filters">
-              <div className="compact-search-wrapper">
-                <Search className="compact-search-icon" />
-                <input
-                  type="text"
-                  placeholder="Tìm kiếm..."
-                  className="compact-search-input"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                {searchQuery && (
-                  <button 
-                    className="compact-search-clear"
-                    onClick={() => setSearchQuery('')}
-                    aria-label="Clear search"
-                  >
-                    <X size={14} />
-                  </button>
-                )}
-              </div>
-              
-              <div className="compact-region-tabs">
-                {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
-                  <button
-                    key={region}
-                    className={`compact-region-tab ${selectedRegion === region ? 'active' : ''}`}
-                    onClick={() => setSelectedRegion(region)}
-                  >
-                    {region}
-                  </button>
-                ))}
-              </div>
-              
-              <div className="compact-select-wrapper">
-                <select
-                  className="compact-select-control"
-                  value={selectedProvince}
-                  onChange={(e) => setSelectedProvince(e.target.value)}
-                >
-                  {provinces.map((prov) => (
-                    <option key={prov} value={prov}>
-                      {prov === 'Tất cả' ? 'Tỉnh / Thành' : prov}
-                    </option>
-                  ))}
-                </select>
-                <ChevronRight className="compact-select-arrow" style={{ transform: 'rotate(90deg)' }} />
-              </div>
-            </div>
-          )}
-        </div>
-      </header>
 
       {/* Hero Banner only shown in Grid View */}
       {viewMode === 'grid' && (
@@ -285,6 +225,59 @@ function App() {
           <div className="results-counter">
             Tìm thấy <strong>{filteredShops.length}</strong> kết quả phù hợp
           </div>
+
+          {/* Compact filters inside toggle row when in map mode */}
+          {viewMode === 'map' && (
+            <div className="compact-filters">
+              <div className="compact-search-wrapper">
+                <Search className="compact-search-icon" />
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                  className="compact-search-input"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                {searchQuery && (
+                  <button 
+                    className="compact-search-clear"
+                    onClick={() => setSearchQuery('')}
+                    aria-label="Clear search"
+                  >
+                    <X size={14} />
+                  </button>
+                )}
+              </div>
+              
+              <div className="compact-region-tabs">
+                {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
+                  <button
+                    key={region}
+                    className={`compact-region-tab ${selectedRegion === region ? 'active' : ''}`}
+                    onClick={() => setSelectedRegion(region)}
+                  >
+                    {region}
+                  </button>
+                ))}
+              </div>
+              
+              <div className="compact-select-wrapper">
+                <select
+                  className="compact-select-control"
+                  value={selectedProvince}
+                  onChange={(e) => setSelectedProvince(e.target.value)}
+                >
+                  {provinces.map((prov) => (
+                    <option key={prov} value={prov}>
+                      {prov === 'Tất cả' ? 'Tỉnh / Thành' : prov}
+                    </option>
+                  ))}
+                </select>
+                <ChevronRight className="compact-select-arrow" style={{ transform: 'rotate(90deg)' }} />
+              </div>
+            </div>
+          )}
+
           <div className="toggle-buttons">
             <button 
               className={`toggle-btn ${viewMode === 'grid' ? 'active' : ''}`}
