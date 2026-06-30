@@ -302,12 +302,22 @@ function App() {
                         className="map-sidebar-item"
                         onClick={() => handleSidebarItemClick(shop)}
                       >
-                        <div className="map-sidebar-item-header">
-                          <span className="map-sidebar-item-name">{shop.name || `Dự án tại ${shop.province}`}</span>
-                          <ArrowIcon size={14} className="map-sidebar-arrow" />
+                        <div className="map-sidebar-item-content">
+                          <img 
+                            src={shop.images[0] || "https://w.ladicdn.com/s800x800/5c45de506b9cc95d393350e9/autoshop-setup-copy-24x-20250409100752-rrewi.png"} 
+                            alt={shop.name} 
+                            className="map-sidebar-thumb"
+                            loading="lazy"
+                          />
+                          <div className="map-sidebar-item-details">
+                            <div className="map-sidebar-item-header">
+                              <span className="map-sidebar-item-name">{shop.name || `Dự án tại ${shop.province}`}</span>
+                              <ArrowIcon size={14} className="map-sidebar-arrow" />
+                            </div>
+                            <p className="map-sidebar-item-address">{shop.address || shop.province}</p>
+                            {shop.model && <span className="map-sidebar-item-badge">{shop.model}</span>}
+                          </div>
                         </div>
-                        <p className="map-sidebar-item-address">{shop.address || shop.province}</p>
-                        {shop.model && <span className="map-sidebar-item-badge">{shop.model}</span>}
                       </li>
                     ))}
                   </ul>
