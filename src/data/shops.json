@@ -3797,5 +3797,67 @@
     "info_card_url": "",
     "lat": 10.6753887,
     "lng": 106.7611118
+  },
+  {
+    "id": "MI-219",
+    "name": "T&K coffee",
+    "region": "Miền Trung",
+    "province": "Đà Nẵng",
+    "address": "177 Hồ Tùng Mậu, phường Hòa Minh, quận Liên Chiểu, Đà Nẵng",
+    "lat": 16.0595,
+    "lng": 108.1638,
+    "investment": "2.5 Tỷ",
+    "model": "cà phê, trà trái cây",
+    "target_customers": "trung niên, văn phòng, bđs",
+    "images": [
+      "/images/MI-219_0.jpg",
+      "/images/MI-219_2.jpg",
+      "/images/MI-219_3.jpg",
+      "/images/MI-219_4.jpg"
+    ]
+  },
+  {
+    "id": "MI-220",
+    "name": "Trạm Kí Ức acoustic & coffee",
+    "region": "Miền Trung",
+    "province": "Quảng Ngãi",
+    "address": "Lô A7-A8-A9 Phan Thái Ất, phường Nghĩa Lộ, thành phố Quảng Ngãi",
+    "lat": 15.1025707,
+    "lng": 108.7999066,
+    "investment": "1.5 Tỷ",
+    "model": "cà phê, matcha, trà sữa pha máy",
+    "target_customers": "khách giới trẻ",
+    "images": [
+      "/images/MI-220_1.jpg"
+    ]
+  },
+  {
+    "id": "MI-221",
+    "name": "Mickey Trà sữa & ăn vặt",
+    "region": "Miền Trung",
+    "province": "Đà Nẵng",
+    "address": "104 Lê Trọng Tấn, phường Hòa Phát, quận Cẩm Lệ, Đà Nẵng",
+    "lat": 16.0028,
+    "lng": 108.1725,
+    "investment": "500 Tr",
+    "model": "trà sữa, ăn vặt",
+    "target_customers": "học sinh, sinh viên",
+    "images": [
+      "/images/MI-221_0.jpg",
+      "/images/MI-221_5.jpg"
+    ]
+  },
+  {
+    "id": "MI-222",
+    "name": "Cafe SOUL 1422",
+    "region": "Miền Trung",
+    "province": "Đà Nẵng",
+    "address": "Lô 1422, Đường Trung Lập 2 (gần Mê Linh), phường Hòa Hiệp Nam, quận Liên Chiểu, Đà Nẵng",
+    "lat": 16.085,
+    "lng": 108.136,
+    "investment": "350 Tr",
+    "model": "cà phê, trà trái cây, matcha",
+    "target_customers": "dân cư chung cư và văn phòng",
+    "images": []
   }
 ]
