@@ -32,6 +32,7 @@ const AUTOSHOP_LOGO = "https://static.ladipage.net/5c45de506b9cc95d393350e9/auto
 const HERO_BG = "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1600";
 
 function App() {
+  console.log("Autoshop Setup Map v2.1.0 loaded");
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRegion, setSelectedRegion] = useState('Tất cả');
   const [selectedProvince, setSelectedProvince] = useState('Tất cả');
