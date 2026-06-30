@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass, Grid, Map as MapIcon, ChevronRight as ArrowIcon } from 'lucide-react';
+import { Search, MapPin, X, ChevronLeft, ChevronRight, Coins, Coffee, Users, Map, Compass, Grid } from 'lucide-react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import shopsData from './data/shops.json';
@@ -296,7 +296,7 @@ function App() {
               className={`toggle-btn ${viewMode === 'map' ? 'active' : ''}`}
               onClick={() => setViewMode('map')}
             >
-              <MapIcon size={16} />
+              <Map size={16} />
               <span>Xem bản đồ</span>
             </button>
           </div>
@@ -380,7 +380,7 @@ function App() {
                           <div className="map-sidebar-item-details">
                             <div className="map-sidebar-item-header">
                               <span className="map-sidebar-item-name">{shop.name || `Dự án tại ${shop.province}`}</span>
-                              <ArrowIcon size={14} className="map-sidebar-arrow" />
+                              <ChevronRight size={14} className="map-sidebar-arrow" />
                             </div>
                             <p className="map-sidebar-item-address">{shop.address || shop.province}</p>
                             {shop.model && <span className="map-sidebar-item-badge">{shop.model}</span>}
