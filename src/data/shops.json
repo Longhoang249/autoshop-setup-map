@@ -3859,5 +3859,18 @@
     "model": "cà phê, trà trái cây, matcha",
     "target_customers": "dân cư chung cư và văn phòng",
     "images": []
+  },
+  {
+    "id": "MI-223",
+    "name": "Pestanap Hoi An Sleep Pods and Coffee",
+    "region": "Miền Trung",
+    "province": "Quảng Nam",
+    "address": "Lô số 13, Đường Lê Hồng Phong nối dài, Khu dân cư Lâm Sa - Tu Lễ - Xuân Hoà, Hội An, Quảng Nam",
+    "lat": 15.8812,
+    "lng": 108.3245,
+    "investment": "1.5 Tỷ",
+    "model": "cà phê, trà trái cây, trà sữa pha máy",
+    "target_customers": "khách trẻ, khách du lịch",
+    "images": []
   }
 ]
