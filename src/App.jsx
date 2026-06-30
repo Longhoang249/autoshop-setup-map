@@ -14,11 +14,16 @@ const customIcon = new L.Icon({
 });
 
 
-// Helper component to change map viewport dynamically
+// Helper component to change map viewport dynamically and fix Leaflet sizing bugs
 function ChangeMapView({ center, zoom }) {
   const map = useMap();
   useEffect(() => {
     map.setView(center, zoom);
+    // Invalidate size to ensure Leaflet recalculates layout and renders tiles correctly
+    const timer = setTimeout(() => {
+      map.invalidateSize();
+    }, 250);
+    return () => clearTimeout(timer);
   }, [center, zoom, map]);
   return null;
 }
@@ -130,84 +135,138 @@ function App() {
   };
 
   return (
-    <div className="app-wrapper">
+    <div className={`app-wrapper ${viewMode}-mode`}>
       {/* Header navbar */}
       <header className="app-header">
         <div className="header-container">
           <div className="logo-section">
             <img src={AUTOSHOP_LOGO} alt="Autoshop Logo" className="logo-img" />
           </div>
-        </div>
-      </header>
-
-      {/* Hero Banner with background image & Integrated Filters */}
-      <section className="hero-banner" style={{ backgroundImage: `url(${HERO_BG})` }}>
-        <div className="hero-overlay"></div>
-        <div className="hero-container">
-          <div className="hero-badge">
-            <Compass size={14} />
-            <span>Autoshop Setup Có Mặt Trên Toàn Quốc</span>
-          </div>
-          <h2 className="hero-title">Đồng Hành Kiến Tạo Khởi Nghiệp</h2>
-          <p className="hero-subtitle">
-            Hệ thống quản lý hàng trăm đối tác đã setup thành công khắp 3 miền Bắc - Trung - Nam với trang thiết bị hiện đại & quy chuẩn vận hành tối ưu.
-          </p>
           
-          {/* Integrated Search & Filter Control Panel */}
-          <div className="hero-control-panel">
-            {/* Row 1: Search Input */}
-            <div className="hero-search-wrapper">
-              <Search className="hero-search-icon" />
-              <input
-                type="text"
-                placeholder="Nhập tên tỉnh thành, mô hình hoặc tên quán..."
-                className="hero-search-input"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              {searchQuery && (
-                <button 
-                  className="hero-search-clear"
-                  onClick={() => setSearchQuery('')}
-                  aria-label="Clear search"
-                >
-                  <X size={18} />
-                </button>
-              )}
-            </div>
-
-            {/* Row 2: Region Tabs & Province Select */}
-            <div className="hero-filters-row">
-              <div className="hero-region-tabs">
+          {/* Compact filters inside header when in map mode */}
+          {viewMode === 'map' && (
+            <div className="compact-filters">
+              <div className="compact-search-wrapper">
+                <Search className="compact-search-icon" />
+                <input
+                  type="text"
+                  placeholder="Tìm kiếm..."
+                  className="compact-search-input"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                {searchQuery && (
+                  <button 
+                    className="compact-search-clear"
+                    onClick={() => setSearchQuery('')}
+                    aria-label="Clear search"
+                  >
+                    <X size={14} />
+                  </button>
+                )}
+              </div>
+              
+              <div className="compact-region-tabs">
                 {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
                   <button
                     key={region}
-                    className={`hero-region-tab ${selectedRegion === region ? 'active' : ''}`}
+                    className={`compact-region-tab ${selectedRegion === region ? 'active' : ''}`}
                     onClick={() => setSelectedRegion(region)}
                   >
                     {region}
                   </button>
                 ))}
               </div>
-
-              <div className="hero-select-wrapper">
+              
+              <div className="compact-select-wrapper">
                 <select
-                  className="hero-select-control"
+                  className="compact-select-control"
                   value={selectedProvince}
                   onChange={(e) => setSelectedProvince(e.target.value)}
                 >
                   {provinces.map((prov) => (
                     <option key={prov} value={prov}>
-                      {prov === 'Tất cả' ? 'Tất cả Tỉnh / Thành' : prov}
+                      {prov === 'Tất cả' ? 'Tỉnh / Thành' : prov}
                     </option>
                   ))}
                 </select>
-                <ChevronRight className="hero-select-arrow" style={{ transform: 'rotate(90deg)' }} />
+                <ChevronRight className="compact-select-arrow" style={{ transform: 'rotate(90deg)' }} />
+              </div>
+            </div>
+          )}
+        </div>
+      </header>
+
+      {/* Hero Banner only shown in Grid View */}
+      {viewMode === 'grid' && (
+        <section className="hero-banner" style={{ backgroundImage: `url(${HERO_BG})` }}>
+          <div className="hero-overlay"></div>
+          <div className="hero-container">
+            <div className="hero-badge">
+              <Compass size={14} />
+              <span>Autoshop Setup Có Mặt Trên Toàn Quốc</span>
+            </div>
+            <h2 className="hero-title">Đồng Hành Kiến Tạo Khởi Nghiệp</h2>
+            <p className="hero-subtitle">
+              Hệ thống quản lý hàng trăm đối tác đã setup thành công khắp 3 miền Bắc - Trung - Nam với trang thiết bị hiện đại & quy chuẩn vận hành tối ưu.
+            </p>
+            
+            {/* Integrated Search & Filter Control Panel */}
+            <div className="hero-control-panel">
+              {/* Row 1: Search Input */}
+              <div className="hero-search-wrapper">
+                <Search className="hero-search-icon" />
+                <input
+                  type="text"
+                  placeholder="Nhập tên tỉnh thành, mô hình hoặc tên quán..."
+                  className="hero-search-input"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+                {searchQuery && (
+                  <button 
+                    className="hero-search-clear"
+                    onClick={() => setSearchQuery('')}
+                    aria-label="Clear search"
+                  >
+                    <X size={18} />
+                  </button>
+                )}
+              </div>
+
+              {/* Row 2: Region Tabs & Province Select */}
+              <div className="hero-filters-row">
+                <div className="hero-region-tabs">
+                  {['Tất cả', 'Miền Bắc', 'Miền Trung', 'Miền Nam'].map((region) => (
+                    <button
+                      key={region}
+                      className={`hero-region-tab ${selectedRegion === region ? 'active' : ''}`}
+                      onClick={() => setSelectedRegion(region)}
+                    >
+                      {region}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="hero-select-wrapper">
+                  <select
+                    className="hero-select-control"
+                    value={selectedProvince}
+                    onChange={(e) => setSelectedProvince(e.target.value)}
+                  >
+                    {provinces.map((prov) => (
+                      <option key={prov} value={prov}>
+                        {prov === 'Tất cả' ? 'Tất cả Tỉnh / Thành' : prov}
+                      </option>
+                    ))}
+                  </select>
+                  <ChevronRight className="hero-select-arrow" style={{ transform: 'rotate(90deg)' }} />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Main Content Area */}
       <main className="main-content">
